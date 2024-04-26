@@ -1,0 +1,2 @@
+# Business Partner Reputation Model
+
