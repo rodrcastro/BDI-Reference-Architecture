@@ -20,11 +20,13 @@
 * [Discovery](technology/discovery.md)
 * [Provenance & Traceability](technology/provenance-and-traceability.md)
 * [Data Licenses](technology/data-licenses.md)
-* [Zero Trust Check & Association Registers](technology/zero-trust-check-and-association-registers.md)
+* [Zero Trust Check](technology/zero-trust-check.md)
+* [Association Register](technology/association-register.md)
 * [Certified Roles](technology/certified-roles.md)
 * [Authorization](technology/authorization.md)
 * [Authentication](technology/authentication.md)
 * [Digital Identity](technology/digital-identity.md)
+* [Verifiable Credentials](technology/verifiable-credentials.md)
 
 ## Semantics
 
