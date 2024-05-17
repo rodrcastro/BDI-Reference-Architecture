@@ -1,9 +1,3 @@
----
-description: >-
-  This page is prepared for
-  https://topsectorlogistiek.atlassian.net/browse/DEA-114.
----
-
 # Association Register
 
 ## Summary&#x20;
