@@ -31,3 +31,7 @@
 ## Semantics
 
 * [Overview](semantics/overview.md)
+
+***
+
+* [Glossary](glossary.md)
