@@ -55,8 +55,6 @@ Furthermore it particularly supports the building blocks “Authentication” an
 
 An Association Register must provide the following key functions:&#x20;
 
-* An Association Administrator can register its Association.&#x20;
-* An Association Administrator can deregister its Association.&#x20;
 * An Association Administrator can register Members after executing the minimum BDI onboarding process.&#x20;
 * An Association Administrator can register membership of a Member of its Association. &#x20;
 * An Association Administrator can deregister a Member, for instance when the Member requires it to do so, when a membership expires, or when a Member is to be excluded from membership due to incompliance.&#x20;
