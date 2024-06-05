@@ -49,6 +49,7 @@ This building block is still highly conceptual and gives a first consideration o
 * How are ratings automated?
 * Is the rating system for data exchange with one BDI Association only or is it federated with other BDI Associations?
 * Can organizations complain / request withdrawal of ratings & rating comments (e.g. based on false motives like competition libel
+* Options for blacklist
 
 ### Further reading
 
