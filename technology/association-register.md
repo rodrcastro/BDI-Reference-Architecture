@@ -43,13 +43,6 @@ The human attack vector is considered to be the most threatening: onboarding sho
 
 \-      Committing to the register (manual)
 
-\
-
-
-***
-
-\[1] In the case of iSHARE OAuth based
-
 
 
 ## Interlinkages with other building blocks&#x20;
