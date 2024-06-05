@@ -73,7 +73,6 @@ The following design decisions form the basis for this building block:&#x20;
 * When Association Administrators register a Member of an Association that is already present as Member of another Association, the existing Member is associated with the Association. The Member is therefore not registered multiple times.&#x20;
 * Members are always discoverable to all other Members of Associations that make use of the BDI Framework.&#x20;
 * Associations, including the membership of their Members can choose to be discoverable in the BDI Framework.&#x20;
-* All Association Registers must technically comply with the specifications as stipulated by iSHARE on [https://dev.ishare.eu/](https://dev.ishare.eu/), under the section “iSHARE Satellite Role”. &#x20;
 * Association Administrators are required to use Association Registers that can provide the above-described design requirements. BDI maintains a list of compliant Association Registers and might choose to run and maintain a central Association Register.&#x20;
 
 ## Future topics&#x20;
