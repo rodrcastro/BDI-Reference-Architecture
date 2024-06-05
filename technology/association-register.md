@@ -25,6 +25,33 @@ The following concepts (from the BDI Glossary) are particularly relevant in this
 
 Failure to provide an Association Register, may lead to lack of accountability and liability, reduced collaboration and, consequently, loss of trust. It can also hinder collaboration due to decreased discoverability.
 
+The weak points in the process are:
+
+\-      the humans fulfilling roles in the branche administration that execute the process
+
+o    errors, vulnerability for social engineering or external pressure
+
+\-      the Association Register that maintains the registers on which the automated assessments of credentials (authentication phase) is based
+
+\-      the correct implementation of the API’s and cryptographic protocols used for interaction with other roles
+
+The human attack vector is considered to be the most threatening: onboarding should therefore be a one-way automated process in three separate steps (see also onboarding T\&Cs Association articles):
+
+\-      Collecting information (automated and/or manual)
+
+\-      Verifying information and test trust chain (automated)
+
+\-      Committing to the register (manual)
+
+\
+
+
+***
+
+\[1] In the case of iSHARE OAuth based
+
+
+
 ## Interlinkages with other building blocks&#x20;
 
 This building block provides the technical implementation supporting the building block “Onboarding T\&C’s and Association articles”, in which the operational processes and requirements regarding the onboarding of a BDI Association are described. &#x20;
