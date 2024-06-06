@@ -29,11 +29,26 @@ The concept for the [association ](federation-of-associations.md)is to adopt the
 
 ### Implementation Considerations&#x20;
 
+* Is your collaboration with other parties mostly within a trusted group an relatively static? Association assigned X.509 might suffice
+* Are the interaction partners varying and expted frequent to be outside of the direct known parties? Government-issued Identities provide a built in level of trust to start of on.
+
+### Interlinkages with other building blocks
+
 * Authorization: Access rights to data
 * Digital Identity: An additional layer to verify trust worthiness of digital identity
 * Zero Trust Check: An additional layer to verify trust worthiness of digital identity
 * Federation of Associations: especially implemented when dealing cross associations
 * Verifiable Credentials: this is future work;
 
-### Interlinkages with other building blocks
+### Elements and their key functions
+
+&#x20;
+
+### Core design decisions
+
+* &#x20;
+
+### Future topics
+
+&#x20;
 
