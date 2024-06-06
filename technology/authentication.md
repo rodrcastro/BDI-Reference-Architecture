@@ -1,2 +1,29 @@
 # Authentication
 
+Authentication is the process or action of proving or showing something to be true, genuine, or valid.
+
+Before Authentication Identification is required. A trusted Identity is validated in the (Federated) Association Register for the Data Service Provider to authorize the Service Consumer access to the source.
+
+For Authentication between parties of the same Association the OAuth 2.0 protocol for authenticating parties and providing access tokens is used when requesting access to a service within BDI. This standard provides secure delegated access. However in OAuth 2.0 it is assumed that clients are pre-registered. In the BDI participants have the option to interact with previously unknown clients this is not a satisfying solution on it's own.
+
+Therefor the BDI adopts the [iSHARE OAuth specifications](https://ishareworks.atlassian.net/wiki/spaces/IS/pages/75235411/OAuth+2.0) as iSHARE facilitates an ecosystem within which parties can interact with previously unknown parties, pre-registration is therefore not a prerequisite and thus requires alterations to the official standard OAuth standard.
+
+There are 2 [Identification ](digital-identity.md)trusted sourced support by the the BDI scheme:
+
+1. **iSHARE whitelisted** [**PKI**](https://ishareworks.atlassian.net/wiki/spaces/IS/pages/70222163/PKI) **certificates.** For authentication purposes, iSHARE requires parties to acquire an X.509 certificate which is distributed by a trusted root under certain PKIs (Public Key Infrastructure). For interoperability on a European scale, all trusted roots under the eIDAS regulation are trusted issuers. This is a base level trust starting at eIDAS substantial.
+2. BDI Association signed X.509 certificates. This credential is issued by the trusted association to it's members as a result of onboarding and maintained to the agreed lifecycle requirements. This credential is endorsed by the association members and federated associations.&#x20;
+
+
+
+## Federated Authentication
+
+
+
+In the BDI network, a [reputation system](business-partner-reputation-model.md) within a BDI Association is integral for assessing the trustworthiness of visitors or outsiders: members of another BDI Association. While the BDI facilitates digital communication among a network of BDI Associations, establishing trust within a BDI Association through mutual agreements is relatively straightforward. However, evaluating the trustworthiness of participants in other BDI Associations can pose a challenge.
+
+
+
+Trust to engage between parties is most often based on more attestations agreed between parties and/or assocation they are member of. The service provider can then make [authorization ](authorization.md)decisions based on te information on behalf of the data owner.
+
+
+

@@ -24,7 +24,7 @@ The association is the core neutral organization that supports the members of th
 
 ### Interlinkages with other building blocks
 
-* Authentication: When authentication out of group members
+* Authentication: Authentication out of group members
 * Digital Identity: An additional layer to verify trust worthiness of digital identity
 * Zero Trust Check: An additional layer to verify trust worthiness of digital identity
 * Certified Roles:
