@@ -17,13 +17,11 @@ There are 2 [Identification ](digital-identity.md)trusted sourced support by the
 
 ## Federated Authentication
 
-
-
 In the BDI network, a [reputation system](business-partner-reputation-model.md) within a BDI Association is integral for assessing the trustworthiness of visitors or outsiders: members of another BDI Association. While the BDI facilitates digital communication among a network of BDI Associations, establishing trust within a BDI Association through mutual agreements is relatively straightforward. However, evaluating the trustworthiness of participants in other BDI Associations can pose a challenge.
 
+A federation trust is designed to enable efficient and secure online transactions between business partners. Trust to engage between parties is most often based on more attestations agreed between parties and/or assocation they are member of. The service provider can then make [authorization ](authorization.md)decisions based on te information on behalf of the data owner.
 
+When a requests from a member of association A is directed to access data of a member of association B the request is redirected to the association's B attestation service to validate the federated trust artifacts available with the requestor association. These attestations help decide the authentication response of the data provider and authorization conditions applied on behalf the data owner. Note: Emphasizing '_helps decid_e' as the Trust Sovereignty principle is kept by allowing the assessment against the policies of the data owner to determine authorization. The owner might want to provide the data service to the requestor that has a low(er) level of attestations.
 
-Trust to engage between parties is most often based on more attestations agreed between parties and/or assocation they are member of. The service provider can then make [authorization ](authorization.md)decisions based on te information on behalf of the data owner.
-
-
+The concept for the [association ](federation-of-associations.md)is to adopt the framework standards with it's members to achieve a goal (benefits outweigh the costs). Add local specifics, ratify common standards across associations, evolve and so on.
 
