@@ -27,29 +27,24 @@ Failure to provide an Association Register, may lead to lack of accountability a
 
 The weak points in the process are:
 
-\-      the humans fulfilling roles in the branche administration that execute the process
-
-o    errors, vulnerability for social engineering or external pressure
-
-\-      the Association Register that maintains the registers on which the automated assessments of credentials (authentication phase) is based
-
-\-      the correct implementation of the API’s and cryptographic protocols used for interaction with other roles
+* The humans fulfilling roles in the branche administration that execute the process
+  * Errors, vulnerability for social engineering or external pressure
+* The Association Register that maintains the registers on which the automated assessments of credentials (authentication phase) is based
+* The correct implementation of the API’s and cryptographic protocols used for interaction with other roles
 
 The human attack vector is considered to be the most threatening: onboarding should therefore be a one-way automated process in three separate steps (see also onboarding T\&Cs Association articles):
 
-\-      Collecting information (automated and/or manual)
-
-\-      Verifying information and test trust chain (automated)
-
-\-      Committing to the register (manual)
-
-
+* Collecting information (automated and/or manual)
+* Verifying information and test trust chain (automated)
+* Committing to the register (manual)
 
 ## Interlinkages with other building blocks&#x20;
 
 This building block provides the technical implementation supporting the building block “Onboarding T\&C’s and Association articles”, in which the operational processes and requirements regarding the onboarding of a BDI Association are described. &#x20;
 
 Furthermore it particularly supports the building blocks “Authentication” and “Certified roles” (but not limited to) by providing trust about Members and their roles.
+
+In fact most building blocks will have some form of link with this building block, since the Association Register is a core topic of the BDI.
 
 ## Elements and their key functions&#x20;
 
