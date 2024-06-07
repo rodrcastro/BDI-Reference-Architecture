@@ -24,6 +24,7 @@
 * [Association Register](technology/association-register.md)
 * [Certified Roles](technology/certified-roles.md)
 * [Authorization](technology/authorization.md)
+* [Authorization & trust assessment](technology/authorization-and-trust-assessment.md)
 * [Authentication](technology/authentication.md)
 * [Digital Identity](technology/digital-identity.md)
 * [Verifiable Credentials](technology/verifiable-credentials.md)
