@@ -135,4 +135,7 @@ Data sovereignty and security measures: &#x20;
 
 ## Further reading
 
-## https://dssc.eu/space/BVE/357074696/Regulatory+Compliance
+1. https://dssc.eu/space/BVE/357074696/Regulatory+Compliance[^1]
+2. [https://framework.ishare.eu/is/operational-processes](https://framework.ishare.eu/is/operational-processes)
+
+[^1]: 
