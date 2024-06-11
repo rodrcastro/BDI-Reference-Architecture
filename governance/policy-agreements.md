@@ -55,6 +55,8 @@ The following challenges are recognised in this concept:
 
 1. If a Data Owner manages authorisations at multiple Authorization Registers, authorisations could become incomparable, when each Authorization Register defines it's own way for storing authorisations, thereby limiting the Data Owner to achieve maximum data sovereignty.
 2. The Authorization Register, Service Consumer and Data Service Provider should sufficiently align in a common language, otherwise the parties won't be able to request, create and consume authorisation evidence.
+3. As a policy language, XACML is suited to these tasks but requires rigorous standardization and good tools for evaluation and maintenance to be effective and practical in real-world applications. Development of these standard roles is parts of the BDI Framework deployment.
+4. As a policy mechanism in data trading, ODRL allows for machine-readable policies for data usage, supporting automation of contract negotiation. In the BDI framework, this is related to data licenses. In operational data spaces, the policies for data usage (data licenses) are in most cases not used for contract negotiation but for standardizing terms and conditions, such as ‘privacy protected’ or ‘commercially confidential’.
 
 {% hint style="success" %}
 BDI specifies the following to support an interoperable authorisation model for BDI Associations, countering the challenges mentioned above.
