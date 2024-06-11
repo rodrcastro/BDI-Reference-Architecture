@@ -79,6 +79,8 @@ o    Define specific roles for participants, such as data providers, data recipi
 
 o    Establish clear application rules for different participant categories.&#x20;
 
+Reference: [https://framework.ishare.eu/is/operational-processes](https://framework.ishare.eu/is/operational-processes)
+
 **Mechanisms for inclusive data governance:**&#x20;
 
 o    The aim is to promote consultation between participants in decision-making and encourage active engagement and contributions from all stakeholders in the governance of the BDI-association. While the realisation of this objective may vary between different BDI-associations, the overarching intention within the common European data spaces is to challenge traditional hierarchical models and take a more inclusive and collaborative approach to governance.
