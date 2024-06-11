@@ -63,7 +63,7 @@ Regulatory compliance encompasses a range of activities designed to ensure that 
 
 ## Implementation Considerations&#x20;
 
-·         Membership, onboarding and offboarding procedures:&#x20;
+**Membership, onboarding and offboarding procedures:**&#x20;
 
 o    Define clear criteria for admission and continued participation.&#x20;
 
@@ -79,17 +79,17 @@ o    Define specific roles for participants, such as data providers, data recipi
 
 o    Establish clear application rules for different participant categories.&#x20;
 
-·         Mechanisms for inclusive data governance:&#x20;
+**Mechanisms for inclusive data governance:**&#x20;
 
-o    The aim is to promote consultation between participants in decision-making and encourage active engagement and contributions from all stakeholders in the governance of the data space. While the realisation of this objective may vary between different data spaces, the overarching intention within the common European data spaces is to challenge traditional hierarchical models and take a more inclusive and collaborative approach to governance.
+o    The aim is to promote consultation between participants in decision-making and encourage active engagement and contributions from all stakeholders in the governance of the BDI-association. While the realisation of this objective may vary between different BDI-associations, the overarching intention within the common European data spaces is to challenge traditional hierarchical models and take a more inclusive and collaborative approach to governance.
 
-o    By fostering inclusivity, data spaces can benefit from different perspectives, ensure fairness and build a sense of collective ownership of governance rules, ultimately promoting trust and effective operation.&#x20;
+o    By fostering inclusivity, participants can benefit from different perspectives, ensure fairness and build a sense of collective ownership of governance rules, ultimately promoting trust and effective operation.&#x20;
 
 o    Achieving this inclusivity requires the involvement of various stakeholders in decision-making, including representatives from the private and public sectors. This inclusiveness may already be reflected in the composition of the governance authority, but if it's not, the governance authority should provide opportunities for stakeholders to review or contribute to the governance framework.&#x20;
 
 o    Encourage transparency and engagement to build a sense of collective ownership and commitment among participants.&#x20;
 
-·         Data sovereignty and security measures: &#x20;
+**Data sovereignty and security measures:** &#x20;
 
 o    Address data sovereignty concerns to ensure participants maintain control over their data and services.&#x20;
 
