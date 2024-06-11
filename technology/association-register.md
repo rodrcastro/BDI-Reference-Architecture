@@ -17,7 +17,7 @@ An Association Register is considered a technological solution to facilitate the
 
 The following concepts (from the BDI Glossary) are particularly relevant in this building block:&#x20;
 
-<table><thead><tr><th width="262">Concept</th><th>Meaning</th></tr></thead><tbody><tr><td>Association </td><td><p>Legal entity that serves as operational anchor for both federated trust/authentication and local onboarding  </p><p>A BDI Association is the “root Association” for its Members. </p></td></tr><tr><td>Association Administrator </td><td>Functionary responsible for operating the services of a BDI Association. </td></tr><tr><td>Association Register </td><td>Register of onboarded Members. </td></tr><tr><td>Member </td><td>Legal entity as member of a root Association. </td></tr></tbody></table>
+<table><thead><tr><th width="262">Concept</th><th>Meaning</th></tr></thead><tbody><tr><td>Association </td><td><p>Legal entity that serves as trust anchor for both federated trust/authentication and local onboarding  </p><p>A BDI Association is the “root Association” for its Members. </p></td></tr><tr><td>Association Administrator </td><td>Functionary responsible for operating the services of a BDI Association. </td></tr><tr><td>Association Register </td><td>Register of onboarded Members. </td></tr><tr><td>Member </td><td>Legal entity as member of a root Association. </td></tr></tbody></table>
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>Schematic overview of concepts</p></figcaption></figure>
 
