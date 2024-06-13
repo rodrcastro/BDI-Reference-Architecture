@@ -32,14 +32,20 @@ The forward-looking direction of a data value chain is referred to as traceabili
 
 This building block addresses the following capabilities:
 
-* Framework for requirements for observability: Data transactions can require the observability of each activity in the transaction, including the provisioning of evidence. The requirement for observability can be stated by law, Governance Framework of the Data Space, Contract between parties or other policies.
-* Third parties to provision or use evidence: The provisioning and usage of this evidence can be used by the parties directly involved in the transaction and optionally by a third party not directly involved in the transaction. Third parties can be involved for different purposes, e.g., auditing, usage accounting and billing, or compliance.
-* Mechanisms to provide and use evidence of the activities of a transaction. This is particularly relevant when multiple parties are involved in the value creation, so called value chains, as such parties have a different interest. Depending on the use case and requirements, the participants (themselves or with 3rd parties) must keep logs of the transactions, which can be used for non-repudiation in case of disputes.
-* Mechanisms to verify the origins: The provenance of data can be relevant in many use cases and could be a potential driver for added value in data sharing. The requirements for proper verification of the origins of the data can be stated by law, governance framework of the data space, contracts between parties or other policies. Provenance could refer to either the traceability of the data in the value chain, as explained above, or the origin of the data itself from a trusted and/or verified source.
+
+
+|                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Framework for requirements for observability                              | Data transactions can require the observability of each activity in the transaction, including the provisioning of evidence. The requirement for observability can be stated by law, Governance Framework , Contract between parties or other policies.                                                                                                                                                                                                              |
+| Third parties to provision or use evidence:                               | The provisioning and usage of this evidence can be used by the parties directly involved in the transaction and optionally by a third party not directly involved in the transaction. Third parties can be involved for different purposes, e.g., auditing, usage accounting and billing, or compliance.                                                                                                                                                             |
+| Mechanisms to provide and use evidence of the activities of a transaction | This is particularly relevant when multiple parties are involved in the value creation, so called value chains, as such parties have a different interest. Depending on the use case and requirements, the participants (themselves or with 3rd parties) must keep logs of the transactions, which can be used for non-repudiation in case of disputes.                                                                                                              |
+| Mechanisms to verify the origins:                                         | The provenance of data can be relevant in many use cases and could be a potential driver for added value in data sharing. The requirements for proper verification of the origins of the data can be stated by law, governance framework, contracts between parties or other policies. Provenance could refer to either the traceability of the data in the value chain, as explained above, or the origin of the data itself from a trusted and/or verified source. |
 
 **Interlinkages with other building blocks**&#x20;
 
-&#x20;\- Federation of assoiciation
+&#x20;Federation of assoiciation
+
+Events pub/sub
 
 
 
