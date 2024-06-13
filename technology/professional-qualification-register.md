@@ -41,6 +41,13 @@ A suggested alternative within the BDI is to store the professional qualificatio
 
 ## Core design decisions
 
+[(EU) Wallets](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET) are under development. Large scale pilots have started, however focus initially has been on the natural person as civillian in relation to it's state authority and lesser on the 'role' of a natural person as a employee / staff in relation to a Legal Entity / business.
+
+Irrespectivly certain developments and initial adoption show the way towards which standards to adopt for the BDI:
+
+* The Verifiable Credential Data Model ([current v2.0](https://www.w3.org/TR/vc-data-model-2.0/)) is to be adhered to. This defines the 'shape' of the claims and belonging metadata that cryptographically prove who issued it. Not the content of the credential itself. This is to be defined in large-scale pilots to strike consensus and find adoption.
+* The VC can be stored in a Wallet, however also BDI supports the more centralized register where the credential with a claim is stored on behalf of the subject. Exchange is through tokens (JWT's) where [_embedddd JWTs with VCs_](https://bdinetwork.org/wp-content/uploads/2024/05/2024-BDI-Embedded-JWT-as-Representation-Evidence.pdf) for representation evidence to provide a[ Chain of Trust](https://en.wikipedia.org/wiki/Chain\_of\_trust). _Specification of the application of the protocol and interfacing is work in progress_
+
 ## Future topics
 
 ## Further reading
