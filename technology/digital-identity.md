@@ -49,5 +49,6 @@ The iSHARE framework on the topic of digital identification is subject to [RFC03
 This building block has been drafted using the following sources, that provide opportunity for further reading:&#x20;
 
 * [DSSC Blueprint building block “Identity and Attestation Management](https://dssc.eu/space/BVE/357075352/Identity+and+Attestation+Management)&#x20;
+* [https://www.w3.org/TR/vc-data-model-2.0/](https://www.w3.org/TR/vc-data-model-2.0/)
 * [iSHARE Framework documentation](https://framework.ishare.eu/), specifically on the topic of identities
 * [iSHARE Developer Portal documentation](https://dev.ishare.eu/)
