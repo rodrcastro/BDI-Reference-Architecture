@@ -1,7 +1,7 @@
 ---
 description: >-
-  This is the glossary of all the terms used in BDi. Additionally, there is
-  alignmnet with terms used in DSSC and iSHARE Trust Framework.
+  This is the glossary of all the terms used in BDI. Additionally, there is
+  alignment with terms used in DSSC and iSHARE Trust Framework.
 ---
 
 # Glossary

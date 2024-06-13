@@ -8,7 +8,7 @@ description: >-
 
 ## Summary
 
-BDI defines Certified Roles as the officially recognized roles for activity in the logistic chain. They form the basis for role-based authorizations.&#x20;
+BDI defines Certified Roles as the officially recognized roles for activity in the logistic chain. They form the basis for role-based authorizations and authentication.  Thus, these play a vital role in achieving trust for data sharing in BDI associations.&#x20;
 
 ## Purpose of the building block
 
@@ -21,6 +21,8 @@ BDI defines these certified roles :&#x20;
 * &#x20;Authorisation Registry&#x20;
 * Identity Provider&#x20;
 * Identity Broker
+
+Other important roles in BDI include : Event Broker, Association Administrator and Mandate Register. &#x20;
 
 ## Concepts
 
@@ -39,17 +41,17 @@ BDI defines these certified roles :&#x20;
 
 All mentioned iSHARE requirements must be considered as BDI requirements.&#x20;
 
-**Components for implementation** :
+**Components for functional implemention of Certified Roles** :
 
-Verifiable Credentials
+Verifiable Credentials - providing a means for Authentication&#x20;
 
-Association Register&#x20;
+Association Register - Trusted list&#x20;
 
-Best practices for automated consent management, e.g. concerning GDPR.
+Best practices for automated consent management, e.g. concerning GDPR
 
-Trust Protocol and Policy Structures.
+Trust Protocol and Policy Structures
 
-Data intermediaries for implementing consent management.
+Data intermediaries for implementing consent management&#x20;
 
 ## Interlinkages with other building blocks
 

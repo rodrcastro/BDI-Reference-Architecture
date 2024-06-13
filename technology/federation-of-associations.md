@@ -55,7 +55,7 @@ This building block is also related to Association Register and Onboarding T\&C'
 Federation of Associations creates:&#x20;
 
 1. Trust Assurance outside the association
-2. A Perimeter-free network
+2. A Perimeter-less network
 
 The Association Admin is a key role in the Federation of Associations  &#x20;
 
@@ -70,7 +70,7 @@ Association Admin&#x20;
 
 * Federation is key to expanding the scope and functional significance of local associations.&#x20;
 * Associations don’t function in silos and zero trust approach requires federation of key trust elements or credentials.&#x20;
-* As most organizations will be active in multiple associations, the question of supporting interoperability between them from the perspective of the organizations is one of the challenges. Federation is finding common ground for trust among associations.&#x20;
+* As most organizations will be active in multiple sectors, the question of supporting interoperability between different sectors is a key challenge. Federation is finding common ground for trust among associations.&#x20;
 * Associations need pre-defined rules or agreements  to verify the claims an entity makes about itself, by links to the registers of Conformity Assessment Bodies that are responsible for certifying a claim. Claims may be anything, such as:  Identity; ISO certification of the organization; Credentials of a certain training level of a person; etc.
 * Federated data space frameworks provide a federated trust framework: this is the basis to check claims (identities and other claims) automatically, and provide access to data at the source when authorized.
 
