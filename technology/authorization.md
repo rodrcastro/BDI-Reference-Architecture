@@ -6,6 +6,10 @@ description: >-
 
 # Authorization
 
+{% hint style="warning" %}
+The content of this page is to be replaced with the new version in [authorization-and-trust-assessment.md](authorization-and-trust-assessment.md "mention")
+{% endhint %}
+
 ## Summary&#x20;
 
 ## Purpose of the building block&#x20;
