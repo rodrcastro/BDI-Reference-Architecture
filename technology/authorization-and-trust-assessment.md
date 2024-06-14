@@ -32,7 +32,7 @@ This building block has links to:&#x20;
 
 ## Elements and their key functions&#x20;
 
-While entering into a transaction, each party involved in the transaction will decided if that party trusts the other party.&#x20;
+While entering into a transaction, each party involved in the transaction will decide if that party trusts the other party.&#x20;
 
 <figure><img src="../.gitbook/assets/Trust assessment when entering into a transaction.png" alt="" width="518"><figcaption><p>Example of trust assessment when entering into a transaction (in this case by Party B)</p></figcaption></figure>
 
@@ -45,7 +45,7 @@ To make a decision on trust, the party will use relevant and available informati
 {% hint style="info" %}
 **Example of a Data Service Provider**
 
-Consider the situation where a Data Service Provider is being requested for data by a Data Consumer. The Data Service Provider could use the following information in its decision to trust the Data Consumer:
+Consider the situation where a Data Service Provider is being requested for data by a Data Consumer. The Data Service Provider has an existing business relationship with the Data Owner in which the rules for sharing data on behalf of the Data Owner are established. The Data Service Provider could use the following information in its decision to trust the Data Consumer:
 
 * Is the Data Consumer member of my Association, a parent Association or the root BDI Network?
 * What is the reputation of the Data Consumer?
@@ -105,8 +105,8 @@ In terms of the technical specifications for Authorisations, the BDI Framework b
 
 * The framework defines [the role of an Authorisation Registry](https://framework.ishare.eu/is/framework-and-roles)&#x20;
 * Entitled Parties are enabled in exercising data sovereignty by providing delegations (as described in the [generic use cases](https://framework.ishare.eu/is/use-cases)) to parties to use their data&#x20;
-* [Licenses](https://framework.ishare.eu/is/licenses) further specify to legal boundaries of the data usages&#x20;
-* The [structure of delegation](https://framework.ishare.eu/is/structure-of-delegation-evidence) evidence is defined in the framework and technical requirements for Authorisations and on the [iSHARE Developer Portal](https://dev.ishare.eu/).&#x20;
+* [Licenses](https://framework.ishare.eu/is/licenses) specify the legal boundaries for the usage of data by a Data Consumer
+* The [structure of delegation](https://framework.ishare.eu/is/structure-of-delegation-evidence) evidence is defined in the framework and the technical requirements for APIs providing delegation evidence on the [iSHARE Developer Portal](https://dev.ishare.eu/).&#x20;
 
 All mentioned iSHARE requirements must be considered as BDI requirements.&#x20;
 
@@ -114,6 +114,8 @@ Functionally authorisations can:
 
 * Be provided by the Data Consumer when requesting to consume a service at a Data Service Provider.
 * Be requested by the Data Service Provider when a Data Consumer requests to consumer a service.
+
+iSHARE and therefore BDI do not define in what way an Authorisation Registry needs to store policies regarding delegations.
 
 ### Guidance for trust decision making
 
