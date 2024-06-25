@@ -18,6 +18,8 @@ That event contains metadata and a link to the source of the data. The receiving
 
 The Event Pub-Sub Service handles the centralized parts of this event-based communication. The actual data exchange happens directly between the parties in a federated manner.&#x20;
 
+
+
 **3 Concepts**
 
 An event-driven architecture uses events to trigger and communicate between decoupled services and is common in modern applications built with microservices. An event is a change in state, or an update, like an item being placed in a shopping cart on an e-commerce website.
@@ -48,7 +50,23 @@ Control:
 * authorization rules define what data can be accessed by what role/party.
 * the sender of events registers who has accessed what data and when, including who has NOT accessed data.
 
-&#x20;
+**The Principal model** **- Choreography - Policy Based Access Control**
+
+Generic identification and authentication for M2M interaction is described in it's respective section [authorization-and-trust-assessment.md](authorization-and-trust-assessment.md "mention") and [digital-identity.md](digital-identity.md "mention").&#x20;
+
+Sharing data along the supply chain can be highly automated if alignment is found on what access is required for whom in the fulfillment. This will require parties to agree to a set of policies and publish endpoints supporting the specific role(s) they support during a transaction.&#x20;
+
+To avoid specific agreements tried to be over-generalized to find this consensus this concept in the BDI is based upon the 'principal' model. In the demand-supply relationship, a party assumes the role of principal. Their (common) way of working can be applied.  In striking the agreement the principal assigns all parties involved the role(s) and belonging authorization. The role(s) identification triggers the conditions that are used to automate the delegations allowing the further unknown parties to each other to 'pre-authorize' the relevant parties in the chain.
+
+<figure><img src="../.gitbook/assets/BDI Principal based event distribution algoritm.png" alt=""><figcaption><p>Principle conecpt event distribution</p></figcaption></figure>
+
+Above an example where two principals have an agreement on where the hand over the ownership of goods as a critical step in the supply chain. The moment in time is to be communicated near real-time to relevant parties (including insurance starting or stopping, expected stock levels to be updated, end customer to be informed etc.). This moment in time is the hand-over moment between Contractor C and Contractor D. These do not have an contractual agreement between each other, even if they are destined to physically meet. In their respective operations this likely happens often, yet they don't know unless an exclusive P2P sharing is established.
+
+Through the Principal model Contractor D is authorized to access, as example, the ETA of Contractor D. The Principals orchestrate the connection in the information flow. Contractor D is now updated on the ETAs which is his starting point and the ETD can be planned and communicated with more certainty. All Contractors remain autonomous and only need to adhere to their contractual obligations in a 1-to-1 relationship with their client yet are part of the choreography making the logistics of this supply chain more streamlined.
+
+
+
+
 
 **4 Implementation Considerations**
 
