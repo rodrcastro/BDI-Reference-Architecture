@@ -32,20 +32,23 @@ This building block has links to:&#x20;
 
 ## Elements and their key functions&#x20;
 
-While entering into a transaction, each party involved in the transaction will decide if that party trusts the other party.&#x20;
+While entering into a transaction, each party (all parties are assumed to be legal entities) involved in the transaction will decide if that party trusts the other party.&#x20;
 
 <figure><img src="../.gitbook/assets/Trust assessment when entering into a transaction.png" alt="" width="518"><figcaption><p>Example of trust assessment when entering into a transaction (in this case by Party B)</p></figcaption></figure>
 
 To make a decision on trust, the party will use relevant and available information. The BDI provides a framework for three input elements for this decision:
 
-1. Trust based on the membership of an Association, one of it’s parent Associations or the root BDI Network.
-2. Trust based on the reputation of the Member as provided by the Reputation Model.
-3. Trust based on Authorizations provided by a Data Owner.
+1. [Trust based on the membership of an Association](authorization-and-trust-assessment.md#id-1.-trust-based-on-association-membership), one of it’s parent Associations or the root BDI Network.
+2. Trust based on the level of assurance of the digital identity of the party.
+3. [Trust based on the reputation of the Member](authorization-and-trust-assessment.md#id-2.-trust-based-on-reputations) as provided by the Reputation Model.
+4. [Trust based on Authorizations](authorization-and-trust-assessment.md#id-3.-trust-based-on-authorisations) provided by a Data Owner.
+
+The Data Service Provider has a business relationship with the Data Owner in which the rules for sharing data on behalf of the Data Owner are established. Beside the input elements that can be provided using the BDI Framework, a Data Service Provider and Data Owner can agree on other inputs used to make a trust decision.
 
 {% hint style="info" %}
 **Example of a Data Service Provider**
 
-Consider the situation where a Data Service Provider is being requested for data by a Data Consumer. The Data Service Provider has an existing business relationship with the Data Owner in which the rules for sharing data on behalf of the Data Owner are established. The Data Service Provider could use the following information in its decision to trust the Data Consumer:
+Consider the situation where a Data Service Provider is being requested for data by a Data Consumer. The Data Service Provider could use the following information in its decision to trust the Data Consumer:
 
 * Is the Data Consumer member of my Association, a parent Association or the root BDI Network?
 * What is the reputation of the Data Consumer?
@@ -82,7 +85,9 @@ To facilitate easier processing of the acquired information, a party can:
 * Choose to follow Association business logic, in this case the Association has defined how to translate Association membership into trust levels.
 * (If allowed by the Association) choose to follow it's own logic.&#x20;
 
-### 2. Trust based on reputations
+### 2. Trust based on the level of assurance of the digital identity of the party
+
+### 3. Trust based on reputations
 
 #### Information gathering
 
@@ -95,7 +100,7 @@ Assuming that information on the reputation of a party is available, a party can
 * Choose to follow Association business logic.
 * (If allowed by the Association) choose to follow it's own logic.&#x20;
 
-### 3. Trust based on Authorisations
+### 4. Trust based on Authorisations
 
 Authorisations provide a way for a Data Owner to specify in great detail which Data  Consumer is allowed to consume data on its behalf at a Data Service Provider. From a data sovereignty perspective, Authorisations provide the highest level of 'trust' and best basis to enter into a transaction up, when transactions are happening between Service Consumers and Data Service Providers.
 
