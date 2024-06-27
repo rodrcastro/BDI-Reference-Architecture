@@ -51,7 +51,20 @@ Events pub/sub
 
 **Elements and their Key Functions**
 
+Nonrepudiation provides proof of the origin (provenance) , authenticity and integrity. It provides assurance to the sender that its message was delivered, as well as proof of the sender's identity to the recipient. This way, neither party can deny that a message was sent, received and processed.​
 
+Example usage: The proverbial use case: man at the gate and the security guard has to verify claims. The Warehouse stores and handles goods for the client. De charter needs to provide evidence of assignment of the transport and compliance to the needed professional qualification (ie ADR-certificate)​.
+
+In the BDI stack, we refer to Registers with claim (Association-, Representation, Professional Qualification- and Business Reputation registers), however this does not mean ‘central’. Practical deployment is explored: The ‘Secure Issuance of Goods demo’ works, however many calls / interactions to federated infrastructure is needed not benefitting non-functionals and robustness of the solution in complex scenarios.​
+
+Direction that is being explored now is by combining ‘Embedded JWTs’ with VC’s (Verfiable Credentials) for a powerful mechanism for secure, flexible, and privacy-preserving information exchange whilst providing a Chain of Trust (tracebility):​
+
+* Enables multi party trust (Chain of Trust)​
+* Captures needed delegation and mandates​
+* Seperation of concerns – you only need to know what you need to know​
+* Privacy preserving - Holder can choose which claims to reveal to a verifier​
+* Nonrepudiation​
+* Known and in use technology, well defined and accepted protocols for token creation and embedding​
 
 **Core Design Decissions**
 
@@ -66,6 +79,11 @@ The following design decisions should be considered:
 * How can you ascertain who acted on the data and at which point?
 
 **Future topics**&#x20;
+
+Future work: Claims need to be stored for usage in a transactions. Ideally the subject should ‘hold’ the claim (like EU Digital Wallets). This is the defined EU direction. Not immidiate needed to work within the BDI scheme.
+
+* The BDI provides nonrepudiation across the supply chain through a Chain of Trust based on Embedded JWT’s combined with VC’s to create a powerful mechanism for secure, flexible, and privacy-preserving information exchange based on known technology. Reference to be developed​
+* (EU) Wallet’s to be researched on readiness (ecosystem) and easy of implementation​
 
 To be potentially covered in future versions.
 
