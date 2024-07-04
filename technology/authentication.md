@@ -19,7 +19,7 @@ While authenticating a party, the level of assurance (LoA) of this party can be 
 
 ### Association membership
 
-To provide input for the [authorization-and-trust-assessment.md](authorization-and-trust-assessment.md "mention") building block, part of authentication is to establish whether or not a party can be trusted on the basis of membership of an Association, one of its parent Associations or the root BDI Network. The following steps must be followed:&#x20;
+To provide input for the [authorisation-oauth-2.0-ar-dm-+-xacml-policies.md](authorisation-oauth-2.0-ar-dm-+-xacml-policies.md "mention") building block, part of authentication is to establish whether or not a party can be trusted on the basis of membership of an Association, one of its parent Associations or the root BDI Network. The following steps must be followed:&#x20;
 
 1. Retrieve party information from an Association Registry (by invoking the /parties/{party\_id} endpoint. The retrieved party information contains a list of association of which the party is a member of.&#x20;
 2. If this membership information is not enough to establish trust, proceed retrieving all associations and traverse the tree of associations until trust can be established.&#x20;

@@ -23,7 +23,7 @@
 * [Zero Trust Check](technology/zero-trust-check.md)
 * [Association Register](technology/association-register.md)
 * [Certified Roles](technology/certified-roles.md)
-* [Authorization & trust assessment](technology/authorization-and-trust-assessment.md)
+* [Authorisation (Oauth 2.0), AR-DM + XACML policies](technology/authorisation-oauth-2.0-ar-dm-+-xacml-policies.md)
 * [Authentication](technology/authentication.md)
 * [Digital Identity](technology/digital-identity.md)
 * [Verifiable Credentials](technology/verifiable-credentials.md)

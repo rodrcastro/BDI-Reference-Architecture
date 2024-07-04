@@ -5,7 +5,7 @@ description: >-
   version that includes ideas on zero-trust processing.
 ---
 
-# Authorization & trust assessment
+# Authorisation (Oauth 2.0), AR-DM + XACML policies
 
 ## Summary&#x20;
 
@@ -41,10 +41,10 @@ While entering into a transaction, each participant involved in the transaction 
 
 To make a decision on trust, the party will use relevant and available information. The BDI provides a framework for four input elements for this decision:
 
-1. [Trust based on the membership of an Association](authorization-and-trust-assessment.md#id-1.-trust-based-on-association-membership), one of it’s parent Associations or the root BDI Network.
-2. [Trust based on the level of assurance](authorization-and-trust-assessment.md#id-2.-trust-based-on-the-level-of-assurance-of-the-digital-identity-of-the-party) of the digital identity of the party.
-3. [Trust based on the reputation of the Member](authorization-and-trust-assessment.md#id-2.-trust-based-on-reputations) as provided by the Reputation Model.
-4. [Trust based on (granular) Authorizations](authorization-and-trust-assessment.md#id-3.-trust-based-on-authorisations) provided by a Data Owner.
+1. [Trust based on the membership of an Association](authorisation-oauth-2.0-ar-dm-+-xacml-policies.md#id-1.-trust-based-on-association-membership), one of it’s parent Associations or the root BDI Network.
+2. [Trust based on the level of assurance](authorisation-oauth-2.0-ar-dm-+-xacml-policies.md#id-2.-trust-based-on-the-level-of-assurance-of-the-digital-identity-of-the-party) of the digital identity of the party.
+3. [Trust based on the reputation of the Member](authorisation-oauth-2.0-ar-dm-+-xacml-policies.md#id-2.-trust-based-on-reputations) as provided by the Reputation Model.
+4. [Trust based on (granular) Authorizations](authorisation-oauth-2.0-ar-dm-+-xacml-policies.md#id-3.-trust-based-on-authorisations) provided by a Data Owner.
 
 ### Trust in case of a Data Service Provider acting on behalf of a Data Owner
 

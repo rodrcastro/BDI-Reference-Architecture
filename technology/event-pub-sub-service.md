@@ -52,7 +52,7 @@ Control:
 
 **The Principal model** **- Choreography - Policy Based Access Control**
 
-Generic identification and authentication for M2M interaction is described in it's respective section [authorization-and-trust-assessment.md](authorization-and-trust-assessment.md "mention") and [digital-identity.md](digital-identity.md "mention").&#x20;
+Generic identification and authentication for M2M interaction is described in it's respective section [authorisation-oauth-2.0-ar-dm-+-xacml-policies.md](authorisation-oauth-2.0-ar-dm-+-xacml-policies.md "mention") and [digital-identity.md](digital-identity.md "mention").&#x20;
 
 Sharing data along the supply chain can be highly automated if alignment is found on what access is required for whom in the fulfillment. This will require parties to agree to a set of policies and publish endpoints supporting the specific role(s) they support during a transaction.&#x20;
 
