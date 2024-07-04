@@ -13,13 +13,30 @@ There are 2 [Identification ](digital-identity.md)trusted sourced support by the
 1. **iSHARE whitelisted** [**PKI**](https://ishareworks.atlassian.net/wiki/spaces/IS/pages/70222163/PKI) **certificates.** For authentication purposes, iSHARE requires parties to acquire an X.509 certificate which is distributed by a trusted root under certain PKIs (Public Key Infrastructure). For interoperability on a European scale, all trusted roots under the eIDAS regulation are trusted issuers. This is a secure level starting defined as '[eIDAS substantial](https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eIDAS+Levels+of+Assurance)'.
 2. BDI Association signed X.509 certificates. This credential is issued by the trusted association to it's members as a result of onboarding and maintained to the agreed lifecycle requirements. This credential is endorsed by the association members and federated associations.&#x20;
 
+### Level of assurance
 
+While authenticating a party, the level of assurance (LoA) of this party can be determined by requesting information from the Association Registry. This information must be providede to the Authorization building block as input for trust assessment and authorization.
+
+### Association membership
+
+To provide input for the [authorization-and-trust-assessment.md](authorization-and-trust-assessment.md "mention") building block, part of authentication is to establish whether or not a party can be trusted on the basis of membership of an Association, one of its parent Associations or the root BDI Network. The following steps must be followed:&#x20;
+
+1. Retrieve party information from an Association Registry (by invoking the /parties/{party\_id} endpoint. The retrieved party information contains a list of association of which the party is a member of.&#x20;
+2. If this membership information is not enough to establish trust, proceed retrieving all associations and traverse the tree of associations until trust can be established.&#x20;
+
+{% hint style="success" %}
+As defined on [https://dev.ishare.eu/satellite/dataspaces.html](https://dev.ishare.eu/satellite/dataspaces.html), a dataspace can contain the field “tags”. This field must contain the parent dataspace in the following form:
+
+`parent:<id_of_parent_dataspace>`
+
+Traversing the parents of BDI associations (dataspaces) will always eventually lead to the discovery of the BDI Root Association (dataspace), which has the ID: EU.DS.BDI.NL.ROOT.
+{% endhint %}
 
 ## Federated Authentication
 
 In the BDI network, a [reputation system](business-partner-reputation-model.md) within a BDI Association is integral for assessing the trustworthiness of visitors or outsiders: members of another BDI Association. While the BDI facilitates digital communication among a network of BDI Associations, establishing trust within a BDI Association through mutual agreements is relatively straightforward. However, evaluating the trustworthiness of participants in other BDI Associations can pose a challenge.
 
-A federation trust is designed to enable efficient and secure online transactions between business partners. Trust to engage between parties is most often based on more attestations agreed between parties and/or assocation they are member of. The service provider can then make [authorization ](authorization.md)decisions based on te information on behalf of the data owner.
+A federation trust is designed to enable efficient and secure online transactions between business partners. Trust to engage between parties is most often based on more attestations agreed between parties and/or assocation they are member of. The service provider can then make [authorization ](broken-reference)decisions based on te information on behalf of the data owner.
 
 When a requests from a member of association A is directed to access data of a member of association B the request is redirected to the association's B attestation service to validate the federated trust artifacts available with the requestor association. These attestations help decide the authentication response of the data provider and authorization conditions applied on behalf the data owner. Note: Emphasizing '_helps decid_e' as the Trust Sovereignty principle is kept by allowing the assessment against the policies of the data owner to determine authorization. The owner might want to provide the data service to the requestor that has a low(er) level of attestations.
 

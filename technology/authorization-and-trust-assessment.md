@@ -11,7 +11,7 @@ description: >-
 
 ## Purpose of the building block
 
-This building block describes how parties can use the BDI to assess the other party involved in a (data) transaction and, based on the assessment, decide whether or not to go through with the transaction.
+This building block describes how parties can use the BDI to assess the other party involved in a (data) transaction and, based on the assessment, decide whether or not to go through with the transaction.&#x20;
 
 ## Concepts&#x20;
 
@@ -25,58 +25,53 @@ The following concepts (from the BDI Glossary) are particularly relevant in this
 
 This building block has links to:&#x20;
 
-* [Business Partner Reputation model](business-partner-reputation-model.md)&#x20;
-* [Zero Trust check](zero-trust-check.md)
-* [Association Register ](association-register.md)
-* [Data licenses ](data-licenses.md)
+* [representation-register.md](representation-register.md "mention")
+* [zero-trust-check.md](zero-trust-check.md "mention")
+* [association-register.md](association-register.md "mention")
+* [data-licenses.md](data-licenses.md "mention")
+* [authentication.md](authentication.md "mention")
+
+Information from these building blocks is used in this building block to make a decision on Authorization.
 
 ## Elements and their key functions&#x20;
 
-While entering into a transaction, each party (all parties are assumed to be legal entities) involved in the transaction will decide if that party trusts the other party.&#x20;
+While entering into a transaction, each participant involved in the transaction will decide if that party trusts the other party.&#x20;
 
 <figure><img src="../.gitbook/assets/Trust assessment when entering into a transaction.png" alt="" width="518"><figcaption><p>Example of trust assessment when entering into a transaction (in this case by Party B)</p></figcaption></figure>
 
-To make a decision on trust, the party will use relevant and available information. The BDI provides a framework for three input elements for this decision:
+To make a decision on trust, the party will use relevant and available information. The BDI provides a framework for four input elements for this decision:
 
 1. [Trust based on the membership of an Association](authorization-and-trust-assessment.md#id-1.-trust-based-on-association-membership), one of it’s parent Associations or the root BDI Network.
-2. Trust based on the level of assurance of the digital identity of the party.
+2. [Trust based on the level of assurance](authorization-and-trust-assessment.md#id-2.-trust-based-on-the-level-of-assurance-of-the-digital-identity-of-the-party) of the digital identity of the party.
 3. [Trust based on the reputation of the Member](authorization-and-trust-assessment.md#id-2.-trust-based-on-reputations) as provided by the Reputation Model.
-4. [Trust based on Authorizations](authorization-and-trust-assessment.md#id-3.-trust-based-on-authorisations) provided by a Data Owner.
+4. [Trust based on (granular) Authorizations](authorization-and-trust-assessment.md#id-3.-trust-based-on-authorisations) provided by a Data Owner.
 
-The Data Service Provider has a business relationship with the Data Owner in which the rules for sharing data on behalf of the Data Owner are established. Beside the input elements that can be provided using the BDI Framework, a Data Service Provider and Data Owner can agree on other inputs used to make a trust decision.
+### Trust in case of a Data Service Provider acting on behalf of a Data Owner
+
+A specific situation occurs when a Data Service Provider acts on behalf of a Data Owner. The Data Service Provider is assumed to have a business relationship with a Data Owner in which the rules for sharing data on behalf of the Data Owner are established. Beside the input elements that can be provided using the BDI Framework, a Data Service Provider and Data Owner can agree on other inputs used to make a trust decision.
 
 {% hint style="info" %}
 **Example of a Data Service Provider**
 
 Consider the situation where a Data Service Provider is being requested for data by a Data Consumer. The Data Service Provider could use the following information in its decision to trust the Data Consumer:
 
-* Is the Data Consumer member of my Association, a parent Association or the root BDI Network?
-* What is the reputation of the Data Consumer?
-* Can the Data Consumer provide Authorizations given to him by a Data Owner?
+* Is the Data Consumer member of my Association, a parent Association or the root BDI Network? \[BDI input element 1]
+* What is the reputation of the Data Consumer? \[BDI input element 3]
+* Can the Data Consumer provide Authorizations given to him by a Data Owner? \[BDI input element 4]
+* Is the Data Consumer a legal entity based in the EU? \[specific criterium, which can optionally be encapsulated in the (granular) Authorization \[BDI input element 4] as a condition
 
 Based on both this information and the nature of the data that the Data Service Provider is requested for (for instance the confidentiality or privacy aspects), the Data Service Provider can make a business decision to provide or not provide the data.
 {% endhint %}
 
 ## Core design decisions
 
-The three inputs for decision making are supported by the BDI framework as follows.
+The four inputs for decision making are supported by the BDI trust input elements as follows.
 
 ### 1. Trust based on association membership
 
 #### Information gathering
 
-To determine whether or not a party can be trusted on the basis of membership of an Association, one of its parent Associations or the root BDI Network, the following steps can be followed:&#x20;
-
-1. Retrieve party information from an Association Registry (by invoking the /parties/{party\_id} endpoint. The retrieved party information contains a list of association of which the party is a member of.&#x20;
-2. If this membership information is not enough to establish trust, proceed retrieving all associations and traverse the tree of associations until trust can be established.&#x20;
-
-{% hint style="success" %}
-As defined on [https://dev.ishare.eu/satellite/dataspaces.html](https://dev.ishare.eu/satellite/dataspaces.html), a dataspace can contain the field “tags”. This field must contain the parent dataspace in the following form:
-
-`parent:<id_of_parent_dataspace>`
-
-Traversing the parents of BDI associations (dataspaces) will always eventually lead to the discovery of the BDI Root Association (dataspace), which has the ID: EU.DS.BDI.NL.ROOT.
-{% endhint %}
+This input element uses input from the building block [authentication.md](authentication.md "mention"). This building block provides insight into what association and (optionally) what parent associations a participant is a member of.
 
 #### Information processing
 
@@ -86,6 +81,17 @@ To facilitate easier processing of the acquired information, a party can:
 * (If allowed by the Association) choose to follow it's own logic.&#x20;
 
 ### 2. Trust based on the level of assurance of the digital identity of the party
+
+#### Information gathering
+
+This input element uses input from the building block [authentication.md](authentication.md "mention"). This building block provides insight into the level of assurance of the party.
+
+#### Information processing
+
+To facilitate easier processing of the acquired information, a party can:
+
+* Choose to follow Association business logic, in this case the Association has defined how to translate Association membership into trust levels.
+* (If allowed by the Association) choose to follow it's own logic.&#x20;
 
 ### 3. Trust based on reputations
 
@@ -100,7 +106,7 @@ Assuming that information on the reputation of a party is available, a party can
 * Choose to follow Association business logic.
 * (If allowed by the Association) choose to follow it's own logic.&#x20;
 
-### 4. Trust based on Authorisations
+### 4. Trust based on (granular) Authorisations
 
 Authorisations provide a way for a Data Owner to specify in great detail which Data  Consumer is allowed to consume data on its behalf at a Data Service Provider. From a data sovereignty perspective, Authorisations provide the highest level of 'trust' and best basis to enter into a transaction up, when transactions are happening between Service Consumers and Data Service Providers.
 
@@ -143,7 +149,7 @@ Personal data of shipper -> high
 
 Example of a trust decision matrix:
 
-<table data-full-width="true"><thead><tr><th>Classification</th><th>Association trust required</th><th>Reputation trust required</th><th>Authorisation required</th></tr></thead><tbody><tr><td>Low</td><td>Medium</td><td>No</td><td>No</td></tr><tr><td>Medium</td><td>Medium</td><td>Medium</td><td>No</td></tr><tr><td>High</td><td>High</td><td>High</td><td>Yes</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Classification</th><th>Association trust required</th><th>Reputation trust required</th><th>Granular authorisation required</th></tr></thead><tbody><tr><td>Low</td><td>Medium</td><td>No</td><td>No</td></tr><tr><td>Medium</td><td>Medium</td><td>Medium</td><td>No</td></tr><tr><td>High</td><td>High</td><td>High</td><td>Yes</td></tr></tbody></table>
 
 Business rules could also consist of a combination of the varius trust aspects. For instance that either medium association trust OR medium reputation trust is required.
 
