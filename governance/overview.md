@@ -1,5 +1,3 @@
 # Overview
 
-<figure><img src="../.gitbook/assets/BDI Context v01.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/BDI Context v01 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/20240712 BDI Context v03.png" alt=""><figcaption></figcaption></figure>
