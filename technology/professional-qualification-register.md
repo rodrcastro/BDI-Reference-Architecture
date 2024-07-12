@@ -1,5 +1,9 @@
 # Professional Qualification Register
 
+
+
+Waarom is de tekst die ik vanmorgen heb geschreven niet meer zichtbaar?
+
 ## Summary
 
 Work in progress.
@@ -51,3 +55,4 @@ Irrespectivly certain developments and initial adoption show the way towards whi
 ## Future topics
 
 ## Further reading
+
