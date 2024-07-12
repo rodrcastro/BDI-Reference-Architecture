@@ -1,5 +1,13 @@
 # Authentication
 
+**Summary**
+
+### Purpose of the building block&#x20;
+
+The purpose of this building block is to prescribe how the process or action of verifying the identity leads to authorization, during BDI event transactions and data sharing, with the Data Owner's control to be able to exercise its right to data and trust sovereignty.
+
+### Concepts
+
 Authentication is the process or action of proving or showing something to be true, genuine, or valid.
 
 Before Authentication Identification is required. A trusted Identity is validated in the (Federated) Association Register for the Data Service Provider to authorize the Service Consumer access to the source.
@@ -32,16 +40,6 @@ As defined on [https://dev.ishare.eu/satellite/dataspaces.html](https://dev.isha
 Traversing the parents of BDI associations (dataspaces) will always eventually lead to the discovery of the BDI Root Association (dataspace), which has the ID: EU.DS.BDI.NL.ROOT.
 {% endhint %}
 
-## Federated Authentication
-
-In the BDI network, a [reputation system](business-partner-reputation-model.md) within a BDI Association is integral for assessing the trustworthiness of visitors or outsiders: members of another BDI Association. While the BDI facilitates digital communication among a network of BDI Associations, establishing trust within a BDI Association through mutual agreements is relatively straightforward. However, evaluating the trustworthiness of participants in other BDI Associations can pose a challenge.
-
-A federation trust is designed to enable efficient and secure online transactions between business partners. Trust to engage between parties is most often based on more attestations agreed between parties and/or assocation they are member of. The service provider can then make [authorization ](broken-reference)decisions based on te information on behalf of the data owner.
-
-When a requests from a member of association A is directed to access data of a member of association B the request is redirected to the association's B attestation service to validate the federated trust artifacts available with the requestor association. These attestations help decide the authentication response of the data provider and authorization conditions applied on behalf the data owner. Note: Emphasizing '_helps decid_e' as the Trust Sovereignty principle is kept by allowing the assessment against the policies of the data owner to determine authorization. The owner might want to provide the data service to the requestor that has a low(er) level of attestations.
-
-The concept for the [association ](federation-of-associations.md)is to adopt the framework standards with it's members to achieve a goal (benefits outweigh the costs). Add local specifics, ratify common standards across associations, evolve and so on.
-
 
 
 ### Implementation Considerations&#x20;
@@ -67,5 +65,15 @@ The concept for the [association ](federation-of-associations.md)is to adopt the
 
 ### Future topics
 
-&#x20;
+
+
+* Federated Authentication through [OAuth 2.0 Attestation-Based Client Authentication](https://datatracker.ietf.org/doc/draft-ietf-oauth-attestation-based-client-auth/03/)
+
+In the BDI network, a [reputation system](business-partner-reputation-model.md) within a BDI Association is integral for assessing the trustworthiness of visitors or outsiders: members of another BDI Association. While the BDI facilitates digital communication among a network of BDI Associations, establishing trust within a BDI Association through mutual agreements is relatively straightforward. However, evaluating the trustworthiness of participants in other BDI Associations can pose a challenge.
+
+A federation trust is designed to enable efficient and secure online transactions between business partners. Trust to engage between parties is most often based on more attestations agreed between parties and/or assocation they are member of. The service provider can then make [authorization ](broken-reference)decisions based on te information on behalf of the data owner.
+
+When a requests from a member of association A is directed to access data of a member of association B the request is redirected to the association's B attestation service to validate the federated trust artifacts available with the requestor association. These attestations help decide the authentication response of the data provider and authorization conditions applied on behalf the data owner. Note: Emphasizing '_helps decid_e' as the Trust Sovereignty principle is kept by allowing the assessment against the policies of the data owner to determine authorization. The owner might want to provide the data service as requested even if the Identity does not provide all the required attestations or limit the authorization provided by the assessment policies of the presented attestations.
+
+The concept for the [association ](federation-of-associations.md)is to adopt the framework standards with it's members to achieve a goal (benefits outweigh the costs). Add local specifics, ratify common standards across associations, evolve and so on.
 
