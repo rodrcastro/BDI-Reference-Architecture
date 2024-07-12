@@ -10,9 +10,17 @@ To be done&#x20;
 
 The Representation Register registers mandates in the form of Representation Evidence given to natural persons, legal entities or governmental bodies that act on behalf of a data owner or data consumer.&#x20;
 
+The Representation Register registers mandates given to natural persons, legal entities or governmental bodies that act on behalf of a data owner or data consumer. A mandate is a record of permission by an [authoritative](https://en.wiktionary.org/wiki/authoritative#English) [command](https://en.wiktionary.org/wiki/command#English) (mandator) provided to whom a mandate is assigned (mandatee)
+
 For Business to Business interactions where a Legal Person can relate another Legal Person to act on its behalf using a different service provider. This can be the case when a Legal person contracts other organisations to execute a contract on its behalf. &#x20;
 
+The purpose in Business to Business interactions is to accommodate where a [Legal Person](https://en.wikipedia.org/wiki/Legal\_person) can mandate another Legal Person to act on its behalf using a different service provider. This can be the case when a Legal Person contracts another organisations to execute a contract on its behalf. &#x20;
+
 For H2M interactions where a Natural Person uses a Service of a Service Provider (e.g. via a web interface) of a Natural Person, the Representation Register relates the Natural Persons to Legal Persons and therefore defines if a Natural Person can act on behalf of a Legal Person or governmental body. However, also use cases with physical access could be considered (e.g. collection of goods, access to a location).&#x20;
+
+For H2M interactions where a Natural Person uses a Service of a Service Provider (e.g. via a web interface) of a Natural Person, the Representation Register relates the Natural Persons to Legal Persons and therefore defines if a Natural Person can act on behalf of a Legal Person or governmental body. However, also use cases with physical access could be considered (e.g. collection of goods, access to a location).
+
+**<< insert picture >>**
 
 A Natural Person could be an employee of the Legal Person or governmental body (e.g. a Company) but it could also be the owner of the Legal Person or an external Natural Person which is empowered to represent the Legal Person for specific use cases (e.g. an external accountant).&#x20;
 
@@ -21,6 +29,8 @@ A Natural Person could be an employee of the Legal Person or governmental body (
 The Representation Register relates Natural Persons to Legal Persons and therefore defines if a Natural Person can act in behalf of a Legal Person. This is primary used in (remote) H2M interactions where a Natural Person uses a Service of Service Provider (e.g. via a web interface). However, also use cases with physical access could be considered (e.g. collection of goods, access to a location).&#x20;
 
 A Natural Person could be an employee of the Legal Person (e.g. a Company) but it could also be the owner of the Legal Person or an external Natural Person that is empowered to represent the Legal Person for specific use cases (e.g. an external accountant).&#x20;
+
+A Natural Person could be an employee of the Legal Person (e.g. a Company) but it could also be the owner of the Legal Person or an external Natural Person which is empowered to represent the Legal Person for specific use cases (e.g. an external accountant).&#x20;
 
 
 
