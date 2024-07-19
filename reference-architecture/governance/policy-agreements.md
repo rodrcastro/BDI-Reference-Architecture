@@ -21,7 +21,7 @@ The following concepts (from the BDI Glossary) are particularly relevant in this
 
 ## Interlinkages with other building blocks&#x20;
 
-This building block is closely tied to [Broken link](broken-reference "mention"). An authorisation which defines:
+This building block is closely tied to [authentication.md](../technology/authentication.md "mention"). An authorisation which defines:
 
 1. Which party
 2. Is allowed to access which data attributes
