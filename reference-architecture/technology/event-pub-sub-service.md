@@ -21,7 +21,7 @@ The concept of the BDI is that parties involved can subscribe to main events and
 
 That event contains metadata and a link to the source of the data. The receiving party evaluates the metadata and decides whether to follow the link to the source and access the data.
 
-<figure><img src="../.gitbook/assets/Afbeelding1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Afbeelding1.png" alt=""><figcaption></figcaption></figure>
 
 The Event Pub-Sub Service handles the centralized parts of this event-based communication. The actual data exchange happens directly between the parties in a federated manner.&#x20;
 
@@ -65,7 +65,7 @@ Sharing data along the supply chain can be highly automated if alignment is foun
 
 To avoid specific agreements tried to be over-generalized to find this consensus this concept in the BDI is based upon the 'principal' model. In the demand-supply relationship, a party assumes the role of principal. Their (common) way of working can be applied.  In striking the agreement the principal assigns all parties involved the role(s) and belonging authorization. The role(s) identification triggers the conditions that are used to automate the delegations allowing the further unknown parties to each other to 'pre-authorize' the relevant parties in the chain.
 
-<figure><img src="../.gitbook/assets/BDI Principal based event distribution algoritm.png" alt=""><figcaption><p>Principle conecpt event distribution</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BDI Principal based event distribution algoritm.png" alt=""><figcaption><p>Principle conecpt event distribution</p></figcaption></figure>
 
 Above an example where two principals have an agreement on where the hand over the ownership of goods as a critical step in the supply chain. The moment in time is to be communicated near real-time to relevant parties (including insurance starting or stopping, expected stock levels to be updated, end customer to be informed etc.). This moment in time is the hand-over moment between Contractor C and Contractor D. These do not have an contractual agreement between each other, even if they are destined to physically meet. In their respective operations this likely happens often, yet they don't know unless an exclusive P2P sharing is established.
 
@@ -87,7 +87,7 @@ According to EPCIS (ISO/IEC 19987), an event contains at least the following fou
 
 Which of these basic fields is selected, depends strongly on the use case. As an example, we have included a selection of typical logistic events based on the DCSA model for container Track-and-Trace functions:
 
-<figure><img src="../.gitbook/assets/Afbeelding1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Afbeelding1 (1).png" alt=""><figcaption></figcaption></figure>
 
 **5 Interlinkages with other building blocks**
 
@@ -111,7 +111,7 @@ The following pattern describes the typical interaction with the Event Pub-Sub s
 
 In this case the data owner grants permission to the data consumer to subscribe to his EventType channel.
 
-<figure><img src="../.gitbook/assets/Afbeelding1 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Afbeelding1 (2).png" alt=""><figcaption></figcaption></figure>
 
 All is now setup for the actual event-based communication:
 
@@ -180,7 +180,7 @@ The concept of using events and subscribing to them is more widely applicable. T
 
 That event contains metadata and a link to the source of the data. The receiving party evaluates the metadata and decides whether to follow the link to the source and access the data. Key difference from a 'messaging' based architecture is that it's the data consumer who decided when the data is queried for relevant information, with the result it's the latest (and greatest) data is evaluated in support of the further autonomous operations of the recipient.&#x20;
 
-<figure><img src="../.gitbook/assets/BDI 3-step approach to Logistics event notification and data retrieval.png" alt=""><figcaption><p>BDI 3-step approach to secured (Logistics) Event notification and data-at-source access</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BDI 3-step approach to Logistics event notification and data retrieval.png" alt=""><figcaption><p>BDI 3-step approach to secured (Logistics) Event notification and data-at-source access</p></figcaption></figure>
 
 &#x20;The Event Pub-Sub Service provides the capability of this event-based communication. The actual data exchange happens directly between the parties in a federated manner. It provides a seperation between the control plane (federated parties, with or without a Principle) and the data plane (hosting event topic channels for transmitting from producers to consumers)
 
@@ -227,7 +227,7 @@ According to [EPCIS (ISO/IEC 19987)](https://standards.iso.org/ittf/PubliclyAvai
 
 Which of these basic fields is selected, depends strongly on the use case. As an example, we have included a selection of typical logistic events based on the DCSA model for container Track-and-Trace functions:&#x20;
 
-<figure><img src="../.gitbook/assets/DCSA Track-and-Trace event structure.png" alt=""><figcaption><p>DCSA Track-and-Trace Event structure</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DCSA Track-and-Trace event structure.png" alt=""><figcaption><p>DCSA Track-and-Trace Event structure</p></figcaption></figure>
 
 ## 5. Interlinkages with other building blocks
 
@@ -247,7 +247,7 @@ Which of these basic fields is selected, depends strongly on the use case. As an
 3. The request for subscription is communicated back to the data owner. The data owner decides if the request should be granted. Fi. based on several queries to the different registers part of the BDI like the Reputation and Qualification registers. Data and trust sovereignty means, in this case, that the owner always has control over who has access to his data
 4. In this case the data owner grants permission to the data consumer to subscribe to his EventType channel.&#x20;
 
-<figure><img src="../.gitbook/assets/BDI Event interaction pattern.png" alt=""><figcaption><p>BDI Event Interaction Pattern</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BDI Event interaction pattern.png" alt=""><figcaption><p>BDI Event Interaction Pattern</p></figcaption></figure>
 
 All is now setup for the actual event-based communication:
 

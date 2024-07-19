@@ -47,7 +47,7 @@ On an abstract level the interaction is as follows:
 
 Interactions 2, 3 and 4 will usually take place right after each other, while interaction 1 can take place at any moment (prior to interaction 2, 3 and 4).
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>BDI abstract authorisation interaction</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>BDI abstract authorisation interaction</p></figcaption></figure>
 
 ## Core design decisions&#x20;
 

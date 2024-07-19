@@ -1,38 +1,33 @@
 # Table of contents
 
 * [Reference Architecture](README.md)
-
-## Governance
-
-* [Overview](governance/overview.md)
-* [Edge agreements](governance/edge-agreements.md)
-* [Policy agreements](governance/policy-agreements.md)
-* [Onboarding T\&C's Association articles](governance/onboarding-t-and-cs-association-articles.md)
-
-## Technology
-
-* [Overview](technology/overview.md)
-* [Federation of Associations](technology/federation-of-associations.md)
-* [Business Partner Reputation Model](technology/business-partner-reputation-model.md)
-* [Representation Register](technology/representation-register.md)
-* [Professional Qualification Register](technology/professional-qualification-register.md)
-* [Event Pub/Sub Service](technology/event-pub-sub-service.md)
-* [Discovery](technology/discovery.md)
-* [Provenance & Traceability](technology/provenance-and-traceability.md)
-* [Data Licenses](technology/data-licenses.md)
-* [Zero Trust Check](technology/zero-trust-check.md)
-* [Association Register](technology/association-register.md)
-* [Certified Roles](technology/certified-roles.md)
-* [Authorisation (Oauth 2.0), AR-DM + XACML policies](technology/authorisation-oauth-2.0-ar-dm-+-xacml-policies.md)
-* [Authentication](technology/authentication.md)
-* [Digital Identity](technology/digital-identity.md)
-* [Verifiable Credentials](technology/verifiable-credentials.md)
-
-## Semantics
-
-* [Overview](semantics/overview.md)
-
-***
-
+  * [INTRODUCTION](reference-architecture/introduction.md)
+  * [GOVERNANCE](reference-architecture/governance/README.md)
+    * [Overview](reference-architecture/governance/overview.md)
+    * [Edge agreements](reference-architecture/governance/edge-agreements.md)
+    * [Policy agreements](reference-architecture/governance/policy-agreements.md)
+    * [Onboarding T\&C's Association articles](reference-architecture/governance/onboarding-t-and-cs-association-articles.md)
+  * [TECHNOLOGY](reference-architecture/technology/README.md)
+    * [Overview](reference-architecture/technology/overview.md)
+    * [Federation of Associations](reference-architecture/technology/federation-of-associations.md)
+    * [Business Partner Reputation Model](reference-architecture/technology/business-partner-reputation-model.md)
+    * [Professional Qualification Register](reference-architecture/technology/professional-qualification-register.md)
+    * [Representation Register](reference-architecture/technology/representation-register.md)
+    * [Event Pub/Sub Service](reference-architecture/technology/event-pub-sub-service.md)
+    * [Discovery](reference-architecture/technology/discovery.md)
+    * [Provenance & Traceability](reference-architecture/technology/provenance-and-traceability.md)
+    * [Data Licenses](reference-architecture/technology/data-licenses.md)
+    * [Zero Trust Check](reference-architecture/technology/zero-trust-check.md)
+    * [Association Register](reference-architecture/technology/association-register.md)
+    * [Certified Roles](reference-architecture/technology/certified-roles.md)
+    * [Authorisation (Oauth 2.0), AR-DM + XACML policies](reference-architecture/technology/authorisation-oauth-2.0-ar-dm-+-xacml-policies.md)
+    * [Authentication](reference-architecture/technology/authentication.md)
+    * [Digital Identity](reference-architecture/technology/digital-identity.md)
+    * [Verifiable Credentials](reference-architecture/technology/verifiable-credentials.md)
+  * [SEMANTICS](reference-architecture/semantics/README.md)
+    * [Overview](reference-architecture/semantics/overview.md)
+  * [GLOSSARY](reference-architecture/glossary/README.md)
+    * [BDI Terms](reference-architecture/glossary/bdi-terms.md)
+    * [DSSC Terms](reference-architecture/glossary/dssc-terms.md)
+    * [iSHARE Terms](reference-architecture/glossary/ishare-terms.md)
 * [Glossary](glossary.md)
-* [Page 1](page-1.md)

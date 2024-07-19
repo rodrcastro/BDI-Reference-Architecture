@@ -37,7 +37,7 @@ Information from these building blocks is used in this building block to make a 
 
 While entering into a transaction, each participant involved in the transaction will decide if that party trusts the other party.&#x20;
 
-<figure><img src="../.gitbook/assets/Trust assessment when entering into a transaction.png" alt="" width="518"><figcaption><p>Example of trust assessment when entering into a transaction (in this case by Party B)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Trust assessment when entering into a transaction.png" alt="" width="518"><figcaption><p>Example of trust assessment when entering into a transaction (in this case by Party B)</p></figcaption></figure>
 
 To make a decision on trust, the party will use relevant and available information. The BDI provides a framework for four input elements for this decision:
 
