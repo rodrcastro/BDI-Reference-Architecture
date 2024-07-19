@@ -26,16 +26,16 @@ BDI encourages participants (particularly Data Consumers) to implement proper da
 
 ## Interlinkages with other building blocks&#x20;
 
-This building block is closely tied to [Broken link](broken-reference "mention"), since a license may be part of an authorisation. The authorisation defines:
+This building block is closely tied to [authorisation-oauth-2.0-ar-dm-+-xacml-policies.md](authorisation-oauth-2.0-ar-dm-+-xacml-policies.md "mention"), since a license may be part of an authorisation. The authorisation defines:
 
 1. Which party
 2. Is allowed to access which data attributes
 3. (Optionally) at which Data Service Provider
-4. (Optionally) with which terms and conditions for using the data (licenses)
+4. (Optionally) with which terms and conditions for using the data (**licenses**)
 
 ## Elements and their key functions&#x20;
 
-Licenses are defined in framework documentation (see below). In Authorisations, licenses are applied. As defined in [Broken link](broken-reference "mention"), and particularly in the [data model for authorisations](https://dev.ishare.eu/delegation/policy-sets.html#refpolicysets), one or more licenses ("stacking") can be applied to an Authorisation. Data Owners must make sure that when more then one license is used, the licenses must not be contradictory.&#x20;
+Licenses are defined in framework documentation (see below). In Authorisations, licenses are applied. As defined in [authorisation-oauth-2.0-ar-dm-+-xacml-policies.md](authorisation-oauth-2.0-ar-dm-+-xacml-policies.md "mention"), and particularly in the [iSHARE data model for authorisations](https://dev.ishare.eu/reference/delegation-mask/policy-sets), one or more licenses ("stacking") can be applied to an Authorisation. Data Owners must make sure that when more then one license is used, the licenses must not be contradictory.&#x20;
 
 {% hint style="success" %}
 **Example of acceptable stacking of licenses**
@@ -48,7 +48,7 @@ Licenses are defined in framework documentation (see below). In Authorisations, 
 
 Licenses are defined on three layers:
 
-1. iSHARE layer. The available licenses are [defined in the iSHARE Trust Framework](https://framework.ishare.eu/is/licenses).
+1. iSHARE layer. The available licenses are [defined in the iSHARE Trust Framework](https://framework.ishare.eu/detailed-descriptions/functional/licenses).
 2. BDI layer. The available licenses are defined [in this building block](data-licenses.md#bdi-layer-licenses).
 3. Association layer. The available licenses are defined in the framework agreements of a BDI Association (when these exist).
 
