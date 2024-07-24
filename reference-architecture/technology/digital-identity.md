@@ -16,7 +16,7 @@ The following concepts (from the BDI Glossary), all regarding legal entities, ar
 
 Besides legal entities, identifiers for natural persons are part of BDI, as natural persons have a role as representee of a legal entity (in the [representation-register.md](representation-register.md "mention") and in the [professional-qualification-register.md](professional-qualification-register.md "mention")).&#x20;
 
-<figure><img src="../../.gitbook/assets/BDI Roles v01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/20240704 BDI Roles v03.png" alt=""><figcaption><p>How a Business Partner from another Trust Framework can join a BDI Association.</p></figcaption></figure>
 
 ## Risks
 
