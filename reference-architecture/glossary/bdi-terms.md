@@ -28,3 +28,13 @@ See also  the [DSSC definition](dssc-terms.md#association-dssc) and the[ iSHARE 
 A BDI Association is the “root Association” for its Members
 
 </details>
+
+<details>
+
+<summary>Association Administrator, Association Authority</summary>
+
+Functionary responsible for operating the services of a BDI Association
+
+See also the[ DSSC definition](dssc-terms.md#association-administrator-association-authority) and the [iSHARE definition](ishare-terms.md#association-administrator-association-authority) of Association Administrator
+
+</details>
