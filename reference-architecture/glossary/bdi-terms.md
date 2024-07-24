@@ -17,7 +17,7 @@ A BDI Adhering Party adheres to the BDI Terms of Use. A BDI Adhering Party MUST 
 
 Legal entity that serves as trust anchor for both federated trust/authentication and local onboarding.&#x20;
 
-See also  the [DSSC definition](dssc-terms.md#association-dssc) and the[ iSHARE definition](ishare-terms.md#association-ishare) of _association_.
+See also  the [DSSC definition](dssc-terms.md#association) and the [iSHARE definition](ishare-terms.md#association) of _association_.
 
 </details>
 
