@@ -26,7 +26,9 @@ The LEO format is primarily focused on the first two physical perspectives and b
 
 These models should be widely used and well-understood, relatively simple, and, taken together, support the target use cases concerning supply chain visibility for BCOs. The challenge, however, is: how can we not only keep our minilanguage simple, but also ensure that mapping datapoints from existing messages in terms of dozens of languages is viable? The answer is to make pervasive use of code lists and thesauri.
 
-&#x20;Beneficial cargo owners (BCOs) greatly profit from this information allowing them to track and trace their cargo. Unfortunately, different subdomains in the logistics industry use vastly different languages to express such information. The unwanted result is that many BCOs suffer from an inadequate information position. Hence the need for an intermediary language as a solution.
+&#x20;Beneficial cargo owners (BCOs) greatly profit from this information allowing them to
+
+track and trace their cargo. Unfortunately, different subdomains in the logistics industry use vastly different languages to express such information. The unwanted result is that many BCOs suffer from an inadequate information position. Hence the need for an intermediary language as a solution.
 
 **5 Interlinkages with other building blocks**
 

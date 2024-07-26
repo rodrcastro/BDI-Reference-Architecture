@@ -8,7 +8,7 @@ description: >-
 
 **Summary**&#x20;
 
-This building block provides guidance support provenance, traceability, logging, audits, etcetera, in a standardized way for the use cases it supports.
+This building block provides guidance support provenance, traceability, logging, audits, etcetera, in a standardised way for the use cases it supports.
 
 Some use cases need additional data over the actual data being shared. This additional data may need the same or different access and usage management than the actual data itself.
 

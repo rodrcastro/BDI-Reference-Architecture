@@ -81,5 +81,5 @@ Association Admin&#x20;
 
 ## Further reading
 
-* [https://bdinetwork.org/wp-content/uploads/2024/01/20230315-Transparency-in-Global-Supply-Chains.pdf](https://bdinetwork.org/wp-content/uploads/2024/01/20230315-Transparency-in-Global-Supply-Chains.pdf)
-* [https://framework.ishare.eu](https://framework.ishare.eu)
+* [https://bdinetwork.org/wp-content/uploads/2024/01/20230315-Transparency-in-Global-Supply-Chains.pdf](https://bdinetwork.org/wp-content/uploads/2024/01/20230315-Transparency-in-Global-Supply-Chains.pdfhttps://framework.ishare.eu)
+* [https://framework.ishare.eu](https://bdinetwork.org/wp-content/uploads/2024/01/20230315-Transparency-in-Global-Supply-Chains.pdfhttps://framework.ishare.eu)
