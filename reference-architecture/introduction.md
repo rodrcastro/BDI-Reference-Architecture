@@ -1,8 +1,6 @@
 # INTRODUCTION
 
-## Introduction BDI Reference Architecture
-
-### BDI : infrastructure framework for Operations and Supply Chain Data Spaces
+## Introduction to the BDI Reference Architecture
 
 The Basic Data Infrastructure Framework (BDI) is an infrastructure framework for controlled data sharing, supporting automated advanced information logistics between entities acting in the physical economy.
 
