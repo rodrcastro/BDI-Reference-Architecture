@@ -2,15 +2,11 @@
 
 Introduction BDI Reference Architecture
 
-&#x20;
+## BDI: An Infrastructure Framework for Operations and Supply Chain Data Spaces
 
-BDI : infrastructure framework for Operations and Supply Chain Data Spaces
+Operations and Supply Chain Management (OSCM) represents the science and expertise of value creation in the production and distribution networks of goods and services. Effective information sharing is an operational necessity within and across these networks: for establishing agreements, coordinating actions and handovers, controlling access to resources and data, and ensuring compliance with authorities. The challenge is to increase effectiveness by automating these exchanges and increase operational visibility and transparency.
 
-&#x20;
-
-Operations and Supply Chain Management (OSCM) represents the science and expertise of value creation in the production and distribution networks of goods and services. Effective information sharing is an operational necessity within and across these networks: for establishing agreements, coordinating actions and handovers, controlling access to resources and data, and ensuring compliance with authorities. The challenge is to increase effectiveness by automating these exchanges.
-
-&#x20;
+Resilience, efficiency, dealing with scarce resources and transparency require more, better and timely information. In order to keep the administrative burden acceptable (especially for SMEs that carry out many of the operational activities) despite the call for more information, more automation is needed: automation of the exchange of information.
 
 The Basic Data Infrastructure Framework (BDI) is an infrastructure framework for controlled data sharing, supporting automated advanced information logistics between entities acting in the physical economy.
 
