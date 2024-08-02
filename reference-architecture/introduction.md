@@ -4,9 +4,9 @@
 
 The Basic Data Infrastructure Framework (BDI) is an infrastructure framework for controlled data sharing, supporting automated advanced information logistics between entities acting in the physical economy.
 
-&#x20;The BDI is based on 7 core principles.
+The BDI is based on 7 core principles.
 
-&#x20;The main drivers of these principles are:
+The main drivers of these principles are:
 
 1. the data exchange characteristics in typical OSCM networks
 2. what a common data exchange infrastructure should support
@@ -18,9 +18,7 @@ Implementing the core principles can be done in stages: the BDI Framework define
 
 The description of  the BDI Reference Architecture starts by following the taxonomy of the BDI Stack by describing the building blocks.
 
-&#x20;
-
-\[ daarna…..Kits, Security, meer intergrale zaken?}
+\[ daarna…..Kits, Security, meer intergrale zaken?\]
 
 ## 1. The 7 Core Principles
 
@@ -124,8 +122,8 @@ The operational data exchange patterns that are a result of “doing business”
 1. Buyer and Seller agree upon conditions for a specific order, which results in shipments and consignments that need to be transported and handed over between Seller and Buyer.
 2. Buyer and Seller subcontract their part (as agreed upon) of the fulfillment of the order to various specialized parties, who subcontract often parts of their commitments to other parties.
 3. The network of parties involved is particular to the order, created when the order starts, dissolved after the order is fulfilled.
-   1. Preferred suppliers participate repeatedly in fulfilling orders.
-   2. Authorities (compliance check) are involved, dependent on applicable regulations.
+    * Preferred suppliers participate repeatedly in fulfilling orders.
+    * Authorities (compliance check) are involved, dependent on applicable regulations.
 
 The implication is that entities have a business relationship that is established before starting the data exchange: the decision to do business with each other, and the vetting of each other (conditions, price, payment terms, liabilities, creditworthiness etc.) is done outside the scope of an operational data exchange network
 
