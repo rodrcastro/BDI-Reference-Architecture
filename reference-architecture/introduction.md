@@ -16,9 +16,9 @@ The main drivers of these principles are:
 
 Implementing the core principles can be done in stages: the BDI Framework defines “kits” as logical combinations of components in the BDI Stack, fit for implementation.
 
-The description of  the BDI Reference Architecture starts by following the taxonomy of the BDI Stack by describing the building blocks.
+The description of the BDI Reference Architecture starts by following the taxonomy of the BDI Stack by describing the building blocks.
 
-\[ daarna…..Kits, Security, meer intergrale zaken?\]
+\[ daarna…..Kits, Security, meer intergrale zaken?]
 
 ## 1. The 7 Core Principles
 
@@ -54,7 +54,7 @@ The second implication is that an entity may participate in multiple concurrent 
 
 The BDI Framework is based on Zero Trust principles.
 
-* doing business in a global economy requires flexibility in choosing business  partners.
+* doing business in a global economy requires flexibility in choosing business partners.
 * entities have to be able to deal with previously unknown sub-subcontractors that pop-up when they are subcontracted by another entity in the same virtual instance.
 * neach entity is autonomous in deciding what an acceptable risk/reward trade-off is, per transaction.
 
@@ -68,7 +68,7 @@ The BDI is based on “perimeter-less trust”:
 
 ### Principle 4: Dynamic Data Life Cycle
 
-Data relevant for operational activities has a dynamic life cycle:  from proposed, planned, to in transit, modified, to registration of as executed.
+Data relevant for operational activities has a dynamic life cycle: from proposed, planned, to in transit, modified, to registration of as executed.
 
 The BDI acknowledges the stadia and fluidity of coordination in real life.
 
@@ -113,7 +113,7 @@ The (IT- and operational) security of the data exchanges relies on the coherence
   * analyzing a potential breach requires the combination of logs of systems
 * operational security and governance measures
 
-## 2.      Data exchange characteristics
+## 2. Data exchange characteristics
 
 The operational data exchange patterns that are a result of “doing business” have specific characteristics. An example from supply chains shows the characteristics:
 
@@ -122,8 +122,8 @@ The operational data exchange patterns that are a result of “doing business”
 1. Buyer and Seller agree upon conditions for a specific order, which results in shipments and consignments that need to be transported and handed over between Seller and Buyer.
 2. Buyer and Seller subcontract their part (as agreed upon) of the fulfillment of the order to various specialized parties, who subcontract often parts of their commitments to other parties.
 3. The network of parties involved is particular to the order, created when the order starts, dissolved after the order is fulfilled.
-    * Preferred suppliers participate repeatedly in fulfilling orders.
-    * Authorities (compliance check) are involved, dependent on applicable regulations.
+   * Preferred suppliers participate repeatedly in fulfilling orders.
+   * Authorities (compliance check) are involved, dependent on applicable regulations.
 
 The implication is that entities have a business relationship that is established before starting the data exchange: the decision to do business with each other, and the vetting of each other (conditions, price, payment terms, liabilities, creditworthiness etc.) is done outside the scope of an operational data exchange network
 
@@ -179,7 +179,7 @@ The value of the data as exchanged is created by the combination of:
   * before an event, or afterwards makes potentially a lot of difference
 * The agency of the actor : can he/she act upon the revealed meaning?
   * power, capabilities, resources
-  * role and responsibilities&#x20;
+  * role and responsibilities
 
 Data exchange can therefore lead to value exchange, value creation or loss of value for the data owner. Or even risks for the data owner.
 
@@ -193,7 +193,7 @@ The BDI framework supports a data owner in controlling the value creation:
 
 This control cannot be implemented by creating a “walled garden”, only accessible by trusted and vetted parties, checked for compliance by an Authority:
 
-* doing business in a global economy requires flexibility in choosing business  partners
+* doing business in a global economy requires flexibility in choosing business partners
 * there is no single Authority imaginable in the near future that would span the global economy
 * each entity is autonomous in deciding what an acceptable risk/reward trade-off is, per transaction.
 * one has to be able to deal with unknown sub-subcontractors that pop-up when they are subcontracted by another entity.
@@ -209,11 +209,11 @@ Groups/Associations may choose to federate and use the BDI framework to exchange
 Trust , identification, authentication and authorization (IAA) are related but not equivalent concepts.
 
 * **Identification** is: assigning an unique identifier a person or entity or IT-system.
-* **Authentication** is:  verifying a claim that a person, entity or IT-system has a specific identity.
+* **Authentication** is: verifying a claim that a person, entity or IT-system has a specific identity.
 * **Trust** is: how much trust do we have in the entity that is authenticated as having a specific identity?
 * **Authorization** is: what data may be accessed by the authenticated entity?
 
-The conflation of these concepts is often caused by the implicit assumption that there is a common trust perimeter.&#x20;
+The conflation of these concepts is often caused by the implicit assumption that there is a common trust perimeter.
 
 A perimeter based trust system assumes that all entities are vetted beforehand by a Trust Authority that guards the trust perimeter. Vetted and onboarded entities are regarded as trustworthy by other insiders (vetted and onboarded entities) within the trust perimeter. Authentication as being onboarded implies trust, followed by a check on authorization.
 
@@ -221,9 +221,9 @@ In a perimeter-less system there is no fixed perimeter with a binary status (onb
 
 In this case, authentication is the first of two steps: Do we accept the identity claim?
 
-The second step is situational:  What level of trust do we bestow upon this identity, within this specific context, role and moment in time? This decision is often based on experience and reputation.
+The second step is situational: What level of trust do we bestow upon this identity, within this specific context, role and moment in time? This decision is often based on experience and reputation.
 
-Trust in perimeter-less system requires more overhead. Perimeter-less systems scale better in large international and  diverse environments, where trust is contextual and situational.
+Trust in perimeter-less system requires more overhead. Perimeter-less systems scale better in large international and diverse environments, where trust is contextual and situational.
 
 Supply chains are a good example of such an environment.
 
@@ -261,12 +261,12 @@ In practice proprietary local implementations can be sufficient to start with., 
 
 In general one can say that subsidiarity, global differentiation and local/sectoral adaptations are seen as more important than enforcing interoperability: natural business drivers will lead to more or less interoperability between groups.
 
-## 7.  BDI Stack and kits
+## 7. BDI Stack and kits
 
 The BDI Stack defines the building blocks and components that form a coherent framework.
+
+<figure><img src="../.gitbook/assets/BDI building blocks.png" alt=""><figcaption><p>Overview of BDI building blocks</p></figcaption></figure>
 
 Implementation of the principles by means of parts of the stack is aided by the definition of “Kits”.
 
 A Kit is a subset of the stack that forms a coherent capability. Implementing a Kit makes it easier to add capabilities later and expand the capabilities.
-
-&#x20;
