@@ -20,7 +20,7 @@ This is possible if:
 
 In this case the business partner becomes a preferred business partner and joins the Association 1 without onboarding into the BDI Root Association. The Edge Agreements now describe the T’s and C’s, all joined in the Association 1, have to adhere to independent of their BDI-compliancy level. In this way actors from other data spaces can join in BDI Associations.
 
-<figure><img src="../../.gitbook/assets/20240628 BDI Roles v02.png" alt=""><figcaption><p>Associations and Members</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/20240704 BDI Roles v03 (1).png" alt=""><figcaption><p>Associations and Members</p></figcaption></figure>
 
 **4 Implementation Considerations**
 
