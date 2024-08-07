@@ -11,7 +11,7 @@ The main drivers of these principles are:
 1. the data exchange characteristics in typical OSCM networks
 2. what a common data exchange infrastructure should support
 3. how the value of data is created
-4. the relation between IAA and trust
+4. the relation between Identification, Authentication and Authorization (IAA) and trust
 5. the implications of perimeter-less trust
 
 Implementing the core principles can be done in stages: the BDI Framework defines “kits” as logical combinations of components in the BDI Stack, fit for implementation.
