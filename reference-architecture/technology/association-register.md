@@ -1,21 +1,21 @@
 # Association Register
 
-## Summary&#x20;
+## Summary 
 
-An Association Register is operated by the role of an Association Administrator. The Association Register holds the registration of Associations, Members and the membership of Members of Associations. It in this way supports trust and discoverability.&#x20;
+An Association Register is operated by the role of an Association Administrator. The Association Register holds the registration of Associations, Members and the membership of Members of Associations. It in this way supports trust and discoverability. 
 
-## Purpose of the building block&#x20;
+## Purpose of the building block 
 
-The purpose of the Association Register is:&#x20;
+The purpose of the Association Register is: 
 
-1. To support trust in an Association by keeping a register of trusted members.&#x20;
-2. To improve discoverability of Associations and members within and (optionally) across associations. &#x20;
+1. To support trust in an Association by keeping a register of trusted members. 
+2. To improve discoverability of Associations and members within and (optionally) across associations.  
 
-An Association Register is considered a technological solution to facilitate the role of the Association Administrator.&#x20;
+An Association Register is considered a technological solution to facilitate the role of the Association Administrator. 
 
-## Concepts&#x20;
+## Concepts 
 
-The following concepts (from the BDI Glossary) are particularly relevant in this building block:&#x20;
+The following concepts (from the BDI Glossary) are particularly relevant in this building block: 
 
 <table><thead><tr><th width="262">Concept</th><th>Meaning</th></tr></thead><tbody><tr><td>Association </td><td><p>Legal entity that serves as trust anchor for both federated trust/authentication and local onboarding  </p><p>A BDI Association is the “root Association” for its Members. </p></td></tr><tr><td>Association Administrator </td><td>Functionary responsible for operating the services of a BDI Association. </td></tr><tr><td>Association Register </td><td>Register of onboarded Members. </td></tr><tr><td>Member </td><td>Legal entity as member of a root Association. </td></tr></tbody></table>
 
@@ -38,44 +38,44 @@ The human attack vector is considered to be the most threatening: onboarding sho
 * Verifying information and test trust chain (automated)
 * Committing to the register (manual)
 
-## Interlinkages with other building blocks&#x20;
+## Interlinkages with other building blocks 
 
-This building block provides the technical implementation supporting the building block “Onboarding T\&C’s and Association articles”, in which the operational processes and requirements regarding the onboarding of a BDI Association are described. &#x20;
+This building block provides the technical implementation supporting the building block “Onboarding T\&C’s and Association articles”, in which the operational processes and requirements regarding the onboarding of a BDI Association are described.  
 
 Furthermore it particularly supports the building blocks “Authentication” and “Certified roles” (but not limited to) by providing trust about Members and their roles.
 
 In fact most building blocks will have some form of link with this building block, since the Association Register is a core topic of the BDI.
 
-## Elements and their key functions&#x20;
+## Elements and their key functions 
 
-An Association Register must provide the following key functions:&#x20;
+An Association Register must provide the following key functions: 
 
-* An Association Administrator can register Members after executing the minimum BDI onboarding process.&#x20;
-* An Association Administrator can register membership of a Member of its Association. &#x20;
-* An Association Administrator can deregister a Member, for instance when the Member requires it to do so, when a membership expires, or when a Member is to be excluded from membership due to incompliance.&#x20;
-* An Association can deregister Membership of a Member of its Association.&#x20;
-* Members can use the Association Register to assess the trust of another member and to retrieve information about Members (in for instance what roles they fulfill).&#x20;
-* Members can use the Association Register to discover which Association are available and which Members are Member of an Association (if the Association chooses to publish this).&#x20;
+* An Association Administrator can register Members after executing the minimum BDI onboarding process. 
+* An Association Administrator can register membership of a Member of its Association.  
+* An Association Administrator can deregister a Member, for instance when the Member requires it to do so, when a membership expires, or when a Member is to be excluded from membership due to incompliance. 
+* An Association can deregister Membership of a Member of its Association. 
+* Members can use the Association Register to assess the trust of another member and to retrieve information about Members (in for instance what roles they fulfill). 
+* Members can use the Association Register to discover which Association are available and which Members are Member of an Association (if the Association chooses to publish this). 
 
-## Core design decisions&#x20;
+## Core design decisions 
 
-The following design decisions form the basis for this building block:&#x20;
+The following design decisions form the basis for this building block: 
 
-* All Association Registers can be connected, so that all Associations and Members are potentially available throughout the connected Association Registers.&#x20;
-* Each Member is registered at a primary Association Register (usually operated by the first Association Administrator that onboards the Member).&#x20;
-* When Association Administrators register a Member of an Association that is already present as Member of another Association, the existing Member is associated with the Association. The Member is therefore not registered multiple times.&#x20;
-* Members are always discoverable to all other Members of Associations that make use of the BDI Framework.&#x20;
-* Associations, including the membership of their Members can choose to be discoverable in the BDI Framework.&#x20;
-* Association Administrators are required to use Association Registers that can provide the above-described design requirements. BDI maintains a list of compliant Association Registers and might choose to run and maintain a central Association Register.&#x20;
+* All Association Registers can be connected, so that all Associations and Members are potentially available throughout the connected Association Registers. 
+* Each Member is registered at a primary Association Register (usually operated by the first Association Administrator that onboards the Member). 
+* When Association Administrators register a Member of an Association that is already present as Member of another Association, the existing Member is associated with the Association. The Member is therefore not registered multiple times. 
+* Members are always discoverable to all other Members of Associations that make use of the BDI Framework. 
+* Associations, including the membership of their Members can choose to be discoverable in the BDI Framework. 
+* Association Administrators are required to use Association Registers that can provide the above-described design requirements. BDI maintains a list of compliant Association Registers and might choose to run and maintain a central Association Register. 
 
-## Future topics&#x20;
+## Future topics 
 
-To be discovered is how the Association Register can technically support the building block “Business Partner Reputation model”. &#x20;
+To be discovered is how the Association Register can technically support the building block “Business Partner Reputation model”.  
 
-## Further reading&#x20;
+## Further reading 
 
-This building block has been drafted using the following sources, that provide opportunity for further reading:&#x20;
+This building block has been drafted using the following sources, that provide opportunity for further reading: 
 
-* [DSSC Blueprint building block “Participation Management”](https://dssc.eu/space/BVE/357074624/Participation+Management)&#x20;
-* [iSHARE Framework documentation](https://framework.ishare.eu/)&#x20;
-* [iSHARE Developer Portal documentation](https://dev.ishare.eu/)&#x20;
+* [DSSC Blueprint building block “Participation Management”](https://dssc.eu/space/BVE/357074624/Participation+Management) 
+* [iSHARE Framework documentation](https://framework.ishare.eu/) 
+* [iSHARE Developer Portal documentation](https://dev.ishare.eu/) 
