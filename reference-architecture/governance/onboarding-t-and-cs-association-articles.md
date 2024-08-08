@@ -103,8 +103,6 @@ o Specify security measures to protect data within the data space, considering f
 
 ## Elements and their key functions
 
-##
-
 ## Core design decisions
 
 Membership, onboarding and offboarding procedures:
