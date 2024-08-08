@@ -62,9 +62,6 @@ An Association Register must provide the following key functions:&#x20;
 The following design decisions form the basis for this building block:&#x20;
 
 * All Association Registers can be connected, so that all Associations and Members are potentially available throughout the connected Association Registers.&#x20;
-* Each Member is registered at a primary Association Register (usually operated by the first Association Administrator that onboards the Member).&#x20;
-* When Association Administrators register a Member of an Association that is already present as Member of another Association, the existing Member is associated with the Association. The Member is therefore not registered multiple times.&#x20;
-* Members are always discoverable to all other Members of Associations that make use of the BDI Framework.&#x20;
 * Associations, including the membership of their Members can choose to be discoverable in the BDI Framework.&#x20;
 * Association Administrators are required to use Association Registers that can provide the above-described design requirements. BDI maintains a list of compliant Association Registers and might choose to run and maintain a central Association Register.&#x20;
 
