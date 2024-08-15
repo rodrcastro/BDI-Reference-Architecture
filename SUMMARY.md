@@ -7,6 +7,7 @@
     * [Edge agreements](reference-architecture/governance/edge-agreements.md)
     * [Policy agreements](reference-architecture/governance/policy-agreements.md)
     * [Onboarding T\&C's Association articles](reference-architecture/governance/onboarding-t-and-cs-association-articles.md)
+    * [Huub's experiment 3](readme/governance/huubs-experiment-3.md)
   * [TECHNOLOGY](reference-architecture/technology/README.md)
     * [Overview](reference-architecture/technology/overview.md)
     * [Federation of Associations](reference-architecture/technology/federation-of-associations.md)
