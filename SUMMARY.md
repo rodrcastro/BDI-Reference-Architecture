@@ -24,7 +24,6 @@
     * [Authentication](reference-architecture/technology/authentication.md)
     * [Digital Identity](reference-architecture/technology/digital-identity.md)
     * [Verifiable Credentials](reference-architecture/technology/verifiable-credentials.md)
-    * [Huub's second experiment](readme/technology/huubs-second-experiment.md)
   * [SEMANTICS](reference-architecture/semantics/README.md)
     * [Overview](reference-architecture/semantics/overview.md)
   * [GLOSSARY](reference-architecture/glossary/README.md)
