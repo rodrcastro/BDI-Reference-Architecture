@@ -55,23 +55,23 @@ A group of entities in a sector defines an enumerated list of practices, includi
 
 The shipper identifies the acceptable practices for a specific transport order (“all acceptable” or “only qualified signature”) and makes them part of delivery conditions in the sale to the buyer. This gives clarity and certainty to all parties involved and gives legal (commercial) backing. In turn, other parties involved in this transaction, like a transportation company, now know what to do when delivering the goods to the buyer of the goods to confirm handover. &#x20;
 
-Implementation Considerations &#x20;
+### Implementation Considerations 
 
 Edge interaction protocols are vital for a functioning supply chain. The definition and maintenance of these protocols are common pool resources. It is recommended that associations agree upon a set of protocols to deal with parties on the edges of the data-sharing network. &#x20;
 
-Use case scenario:&#x20;
+### Use case scenario:&#x20;
 
-1. Acne Inc. buys a batch of hydrofluoric acid from its supplier Lets-B-chemical. Acne inc. agrees to the terms and conditions of delivery from Lets-B-Chemical including terms on proof of delivery.&#x20;
+1. Acme Inc. buys a batch of hydrofluoric acid from its supplier Lets-B-chemical. Acme inc. agrees to the terms and conditions of delivery from Lets-B-Chemical including terms on proof of delivery.&#x20;
 2. They agree that Lets-B-chemical will hire De Snelle Visser for transport&#x20;
-3. It is known that Acne Inc. does not use any IT.&#x20;
+3. It is known that Acme Inc. does not use any IT.&#x20;
 4. Lets-B-Chemical and De Snelle Visser are accustomed to working together according to the BDI framework where status updates on shipments are done through event-driven coordination.&#x20;
-5. Lets-B-Chemical informs the transport company De Snelle Visser that a digital confirmation of handover can be done by either a picture of the delivery or an SMS confirmation. This is also agreed upon in step 1 between Lets-B-chemical and Acne inc.&#x20;
-6. The driver working for De Snelle Visser delivers the goods to Acne Inc. and takes a picture of the delivered hydrofluoric acid.&#x20;
+5. Lets-B-Chemical informs the transport company De Snelle Visser that a digital confirmation of handover can be done by either a picture of the delivery or an SMS confirmation. This is also agreed upon in step 1 between Lets-B-chemical and Acme inc.&#x20;
+6. The driver working for De Snelle Visser delivers the goods to Acme Inc. and takes a picture of the delivered hydrofluoric acid.&#x20;
 7. The confirmation of delivery with the provided evidence will trigger a status update on the shipment from “in transit” to “delivered”. &#x20;
 
 <figure><img src="../../.gitbook/assets/Edge Agreements.png" alt=""><figcaption><p>Overview of interactions between parties</p></figcaption></figure>
 
-In this scenario, the BDI supports both the shipper (Lets-B-Chemical) and the transportation company (De Snelle Visser). However, the buyer (Acne Inc.) is not part of the BDI or any other network due to its low IT maturity level. As a result, the BDI cannot directly assist the buyer, which reduces its effectiveness for both the shipper and the transportation company. Establishing a set of defined agreements to address situations like this would enhance overall digitization and provide clear legal backing for these handover moments. This case is not unique; many supply chains still rely on paper for such handovers.&#x20;
+In this scenario, the BDI supports both the shipper (Lets-B-Chemical) and the transportation company (De Snelle Visser). However, the buyer (Acme Inc.) is not part of the BDI or any other network due to its low IT maturity level. As a result, the BDI cannot directly assist the buyer, which reduces its effectiveness for both the shipper and the transportation company. Establishing a set of defined agreements to address situations like this would enhance overall digitization and provide clear legal backing for these handover moments. This case is not unique; many supply chains still rely on paper for such handovers.&#x20;
 
 ### Interlinkages with other building blocks&#x20;
 
