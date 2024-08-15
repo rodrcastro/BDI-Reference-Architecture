@@ -1,8 +1,8 @@
 # Edge agreements
 
-**1 Summary**
+**Summary**
 
-Edge Agreements are standards, terms and conditions, needed for non-BDI-compliant actors to interact with entities and/or persons that are BDI-compliant in an BDI Association. These Edge Agreements are active on the Association level.
+Edges are the boundaries of an association. Edge Agreements define how members of the association can interact with non-members of the association.
 
 **2 Purpose of the building block**
 
@@ -14,17 +14,15 @@ In the next figure you can see two associations. Association 1 is connected to t
 
 This is possible if:
 
-·      The business partner adheres to the Edge Agreements of the Association.
+· The business partner adheres to the Edge Agreements of the Association.
 
-·      The business partner is vetted by an existing member of the BDI Root Association.
+· The business partner is vetted by an existing member of the BDI Root Association.
 
 In this case the business partner becomes a preferred business partner and joins the Association 1 without onboarding into the BDI Root Association. The Edge Agreements now describe the T’s and C’s, all joined in the Association 1, have to adhere to independent of their BDI-compliancy level. In this way actors from other data spaces can join in BDI Associations.
 
 <figure><img src="../../.gitbook/assets/20240704 BDI Roles v03 (1).png" alt=""><figcaption><p>Associations and Members</p></figcaption></figure>
 
 **4 Implementation Considerations**
-
-
 
 **5 Interlinkages with other building blocks**
 
@@ -78,7 +76,7 @@ Error handling and feedback loops
 
 Real-time Data Exchange and Processing
 
-Documentation and Developer Suppor&#x20;
+Documentation and Developer Suppor
 
 Authorization model
 
@@ -116,14 +114,10 @@ Initial Registration Verification
 
 Continuous Verification
 
-Invoicing and Compliance Reporting&#x20;
+Invoicing and Compliance Reporting
 
 **7 Core design decisions**
 
-
-
 **8 Future topics**
-
-
 
 **9 Further reading**
