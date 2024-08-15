@@ -45,11 +45,11 @@ A practical implementation example might be constructed as follows.
 A group of entities in a sector defines an enumerated list of practices, including roles, responsibilities and liabilities. The list spans a range of trade-offs between ease-of-use and levels of legal and IT-security. For example:
 
 * “A handover is defined by the driver hitting a button, that records:
-* driver ID,
-* license plate
-* time,
-* geolocation
-* shipment ID”
+  * driver ID,
+  * license plate
+  * time,
+  * geolocation
+  * shipment ID”
 * “A handover is defined by the driver taking one or more digital pictures of the shipment unloaded, geo-tagged, time-stamped”
 * “A handover is defined by a qualified digital signature of the receiver and the driver”
 
