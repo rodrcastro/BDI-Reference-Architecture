@@ -105,3 +105,38 @@ When starting an association, it is advisable to establish a set of "edge agreem
 
 * [https://digitalshipmentdata.org/](https://digitalshipmentdata.org/)
 * [https://www.evofenedex.nl/kennis/internationaal-ondernemen/incoterms/de-11-incoterms-2020](https://www.evofenedex.nl/kennis/internationaal-ondernemen/incoterms/de-11-incoterms-2020)
+
+### Interlinkages with other building blocks&#x20;
+
+* Terms and Conditions &#x20;
+* Policies&#x20;
+
+### Elements and their key functions&#x20;
+
+* Agree on a set of accepted edge interactions like (but not limited to)
+  * Picture of the freight taken by the driver&#x20;
+  * SMS confirmation between the buyer and seller&#x20;
+  * Signature on tablet by the driver and buyer&#x20;
+
+### Core design decisions&#x20;
+
+When starting an association, it is advisable to establish a set of "edge agreements." These agreements should be developed across three layers, all of which need to be considered:&#x20;
+
+* _Association-Specific_: These agreements are tailored to meet the unique needs of the association, which may vary by sector, geographical location, or specific theme. For example, in bulk transport, the quantity delivered might differ depending on the customer or transport company due to factors like time delays or poor internet connectivity. An edge agreement could be established to define the correct weight of goods upon delivery.&#x20;
+* _Common_: Utilize a standardized set of edge agreements available in the BDI repository. For instance, an agreement could state that a picture of the delivered goods serves as sufficient proof of delivery.&#x20;
+* _Global_: Seek to align these edge agreements with those used in other sectors and standards whenever possible, promoting convergence and consistency.&#x20;
+
+### Future topics&#x20;
+
+* Proving inclusion of the protocol in the proving grounds&#x20;
+* Further describe data exchange with non-BDI actors&#x20;
+* Further describe edges with BDI actors. &#x20;
+
+### Further reading&#x20;
+
+* [https://digitalshipmentdata.org/](https://digitalshipmentdata.org/)&#x20;
+* [https://www.evofenedex.nl/kennis/internationaal-ondernemen/incoterms/de-11-incoterms-2020](https://www.evofenedex.nl/kennis/internationaal-ondernemen/incoterms/de-11-incoterms-2020) &#x20;
+
+&#x20;
+
+&#x20;
