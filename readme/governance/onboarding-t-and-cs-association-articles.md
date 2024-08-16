@@ -1,8 +1,6 @@
-# Onboarding Terms and Conditions Association Articles
+# Onboarding T\&C's Association articles
 
 ## Summary
-
-
 
 ## Purpose of the building block
 
@@ -33,11 +31,12 @@ Other members rely on the association administration entity to fulfil this role 
 All changes to the registrations stored in the Association Register must follow the process outlined in this section: this process reduces the possibility of attack vectors directed to the staff of the Association Administration (social engineering, blackmail etc.)
 
 The following steps apply to new registrations, updates to registrations and depreciation.
-| Step                    | Action |
-|---|---|
-| Prepare                 | <p>A complete set of attributes is prepared; for updates, this includes all data in the registration (including any attributes that haven't changed).</p><p>During preparation attributes can be added, removed and modified freely. Ideally, there is a way to validate the dataset during preparation but it must be possible to work with intermediate/incomplete data until submitting for verification</p>|  
-| Verify                  | <p> Verification is an automated process.</p><p>Once, submitted for verification it is kept immutable; it must not be possible to change datasets during or after verification. If changes have to be made they will be fully re-submittedS and follow the full prepare / verify/commit process.</p><p>Once the verification stage is completed, it can be queued for commit.</p> |
-| Commit & Sign           | <p>Once verified, the Association Functionary who will also do any non-automated checks, for instance checking the (digital) signature on any signed documents provided.</p><p>The Association Functionary cannot change the submission. The only possible actions are "reject" or "commit" or “deprecate” an already committed.</p><p>It is a requirement that non-repudiation of the action taken by the Association Functionary is supported.</p><p>Only a commit will add/update / modify the registration in the Association Register. If changes are not committed, they do not affect the Register.</p>|
+
+| Step          | Action                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Prepare       | <p>A complete set of attributes is prepared; for updates, this includes all data in the registration (including any attributes that haven't changed).</p><p>During preparation attributes can be added, removed and modified freely. Ideally, there is a way to validate the dataset during preparation but it must be possible to work with intermediate/incomplete data until submitting for verification</p>                                                                                                                                                                                                |
+| Verify        | <p>Verification is an automated process.</p><p>Once, submitted for verification it is kept immutable; it must not be possible to change datasets during or after verification. If changes have to be made they will be fully re-submittedS and follow the full prepare / verify/commit process.</p><p>Once the verification stage is completed, it can be queued for commit.</p>                                                                                                                                                                                                                               |
+| Commit & Sign | <p>Once verified, the Association Functionary who will also do any non-automated checks, for instance checking the (digital) signature on any signed documents provided.</p><p>The Association Functionary cannot change the submission. The only possible actions are "reject" or "commit" or “deprecate” an already committed.</p><p>It is a requirement that non-repudiation of the action taken by the Association Functionary is supported.</p><p>Only a commit will add/update / modify the registration in the Association Register. If changes are not committed, they do not affect the Register.</p> |
 
 ### Terms and Conditions
 
@@ -56,14 +55,16 @@ Regulatory compliance encompasses a range of activities designed to ensure that 
 ## Implementation Considerations
 
 **Membership, onboarding and offboarding procedures**
-- Define clear criteria for admission and continued participation.
-- Develop efficient onboarding processes, including establishing general terms and conditions and reviewing participant compliance.
-- Plan for efficient offboarding processes to manage the exit of participants while safeguarding data and maintaining the integrity of the data space.
+
+* Define clear criteria for admission and continued participation.
+* Develop efficient onboarding processes, including establishing general terms and conditions and reviewing participant compliance.
+* Plan for efficient offboarding processes to manage the exit of participants while safeguarding data and maintaining the integrity of the data space.
 
 **Participant categories and roles**
-- Identify and categorise participants according to their role in a data space.
-- Define specific roles for participants, such as data providers, data recipients, and data rights holders.
-- Establish clear application rules for different participant categories.
+
+* Identify and categorise participants according to their role in a data space.
+* Define specific roles for participants, such as data providers, data recipients, and data rights holders.
+* Establish clear application rules for different participant categories.
 
 Reference: [https://framework.ishare.eu/is/operational-processes](https://framework.ishare.eu/is/operational-processes)
 
@@ -77,40 +78,39 @@ Achieving this inclusivity requires the involvement of various stakeholders in d
 
 Encourage transparency and engagement to build a sense of collective ownership and commitment among participants.
 
-**Data sovereignty and security measures** 
+**Data sovereignty and security measures**
 
 Address data sovereignty concerns to ensure participants maintain control over their data and services.
 
-Specify security measures to protect data within the data space, considering factors like critical infrastructure and adherence to standards. 
+Specify security measures to protect data within the data space, considering factors like critical infrastructure and adherence to standards.
 
 ## Interlinkages with other building blocks
 
-- Association Register
-- Data Licenses
-- Certified roles
+* Association Register
+* Data Licenses
+* Certified roles
 
 ## Elements and their key functions
 
 ## Core design decisions
 
 **Membership, onboarding and offboarding procedures**
-- Define clear criteria for admission and continued participation.
-- Develop efficient onboarding processes, including establishing general terms and conditions and reviewing participant compliance.
-- Plan for efficient offboarding processes to manage the exit of participants while safeguarding data and maintaining the integrity of the data space.
+
+* Define clear criteria for admission and continued participation.
+* Develop efficient onboarding processes, including establishing general terms and conditions and reviewing participant compliance.
+* Plan for efficient offboarding processes to manage the exit of participants while safeguarding data and maintaining the integrity of the data space.
 
 **Data sovereignty and security measures**
-- Address data sovereignty concerns to ensure participants maintain control over their data and services.
-- Specify security measures to protect data within the data space, considering factors like critical infrastructure and adherence to standards. 
+
+* Address data sovereignty concerns to ensure participants maintain control over their data and services.
+* Specify security measures to protect data within the data space, considering factors like critical infrastructure and adherence to standards.
 
 ## Future topics
 
 Different forms of association
 
-## 
-
 ## Further reading
 
-1. https://dssc.eu/space/BVE/357074696/Regulatory+Compliance[^1]
+1. [https://dssc.eu/space/BVE/357074696/Regulatory+Compliance](https://dssc.eu/space/BVE/357074696/Regulatory+Compliance)
 2. [https://framework.ishare.eu/is/operational-processes](https://framework.ishare.eu/is/operational-processes)
 
-[^1]: 
