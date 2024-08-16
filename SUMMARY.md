@@ -28,6 +28,4 @@
     * [Overview](readme/semantics/overview.md)
   * [GLOSSARY](readme/glossary/README.md)
     * [BDI Terms](readme/glossary/bdi-terms.md)
-    * [DSSC Terms](readme/glossary/dssc-terms.md)
-    * [iSHARE Terms](readme/glossary/ishare-terms.md)
 * [Glossary](glossary.md)
